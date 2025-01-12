@@ -1,0 +1,4459 @@
+{
+  "BTC": {
+    "name": "Bitcoin",
+    "pairs": [
+      {
+        "key": "ETH",
+        "name": "Ethereum",
+        "label": "Ethereum (ETH)",
+        "img": "/media/37746238/eth.png"
+      },
+      {
+        "key": "LTC",
+        "name": "Litecoin",
+        "label": "Litecoin (LTC)",
+        "img": "/media/37746243/ltc.png"
+      },
+      {
+        "key": "BNB",
+        "name": "Binance Coin",
+        "label": "Binance Coin (BNB)",
+        "img": "/media/40485170/bnb.png"
+      },
+      { "key": "NEO", "name": "NEO", "label": "NEO (NEO)", "img": "/media/37746892/neo.png" },
+      { "key": "GAS", "name": "Gas", "label": "Gas (GAS)", "img": "/media/37747638/gas.png" },
+      {
+        "key": "LRC",
+        "name": "Loopring",
+        "label": "Loopring (LRC)",
+        "img": "/media/36798698/lrc-logo.png"
+      },
+      { "key": "QTUM", "name": "QTUM", "label": "QTUM (QTUM)", "img": "/media/37746863/qtum.png" },
+      { "key": "ZRX", "name": "0x", "label": "0x (ZRX)", "img": "/media/1383799/zrx.png" },
+      {
+        "key": "KNC",
+        "name": "Kyber Network Crystal v2",
+        "label": "Kyber Network Crystal v2 (KNC)",
+        "img": "/media/40219091/knc.png"
+      },
+      {
+        "key": "LINK",
+        "name": "Chainlink",
+        "label": "Chainlink (LINK)",
+        "img": "/media/37746242/link.png"
+      },
+      { "key": "MTL", "name": "Metal", "label": "Metal (MTL)", "img": "/media/37746820/mtl.png" },
+      { "key": "EOS", "name": "EOS", "label": "EOS (EOS)", "img": "/media/45735374/eos.png" },
+      {
+        "key": "SNT",
+        "name": "Status Network Token",
+        "label": "Status Network Token (SNT)",
+        "img": "/media/37747590/snt.png"
+      },
+      {
+        "key": "ETC",
+        "name": "Ethereum Classic",
+        "label": "Ethereum Classic (ETC)",
+        "img": "/media/37746862/etc.png"
+      },
+      { "key": "ZEC", "name": "ZCash", "label": "ZCash (ZEC)", "img": "/media/37746899/zec.png" },
+      { "key": "DASH", "name": "Dash", "label": "Dash (DASH)", "img": "/media/37746893/dash.png" },
+      {
+        "key": "REQ",
+        "name": "Request Network",
+        "label": "Request Network (REQ)",
+        "img": "/media/39198095/req.png"
+      },
+      {
+        "key": "VIB",
+        "name": "Viberate",
+        "label": "Viberate (VIB)",
+        "img": "/media/43687848/vib.png"
+      },
+      { "key": "TRX", "name": "TRON", "label": "TRON (TRX)", "img": "/media/37746879/trx.png" },
+      {
+        "key": "POWR",
+        "name": "Power Ledger",
+        "label": "Power Ledger (POWR)",
+        "img": "/media/37746985/powr.png"
+      },
+      { "key": "XRP", "name": "XRP", "label": "XRP (XRP)", "img": "/media/38553096/xrp.png" },
+      {
+        "key": "ENJ",
+        "name": "Enjin Coin",
+        "label": "Enjin Coin (ENJ)",
+        "img": "/media/37747010/enj.png"
+      },
+      {
+        "key": "STORJ",
+        "name": "Storj",
+        "label": "Storj (STORJ)",
+        "img": "/media/38553125/storj.png"
+      },
+      { "key": "KMD", "name": "Komodo", "label": "Komodo (KMD)", "img": "/media/37746989/kmd.png" },
+      { "key": "NULS", "name": "Nuls", "label": "Nuls (NULS)", "img": "/media/37747025/nuls.png" },
+      {
+        "key": "BAT",
+        "name": "Basic Attention Token",
+        "label": "Basic Attention Token (BAT)",
+        "img": "/media/37746356/bat.png"
+      },
+      { "key": "LSK", "name": "Lisk", "label": "Lisk (LSK)", "img": "/media/37747050/lsk.png" },
+      {
+        "key": "MANA",
+        "name": "Decentraland",
+        "label": "Decentraland (MANA)",
+        "img": "/media/37746665/mana.png"
+      },
+      {
+        "key": "ADX",
+        "name": "Ambire AdEx",
+        "label": "Ambire AdEx (ADX)",
+        "img": "/media/40420669/adx.png"
+      },
+      {
+        "key": "ADA",
+        "name": "Cardano",
+        "label": "Cardano (ADA)",
+        "img": "/media/37746235/ada.png"
+      },
+      {
+        "key": "XLM",
+        "name": "Stellar",
+        "label": "Stellar (XLM)",
+        "img": "/media/37746346/xlm.png"
+      },
+      {
+        "key": "ICX",
+        "name": "ICON Project",
+        "label": "ICON Project (ICX)",
+        "img": "/media/37747580/icx.png"
+      },
+      { "key": "ELF", "name": "aelf", "label": "aelf (ELF)", "img": "/media/37746930/elf.png" },
+      { "key": "RLC", "name": "iExec", "label": "iExec (RLC)", "img": "/media/37747617/rlc.png" },
+      {
+        "key": "PIVX",
+        "name": "Private Instant Verified Transaction",
+        "label": "Private Instant Verified Transaction (PIVX)",
+        "img": "/media/37459237/pivx.png"
+      },
+      {
+        "key": "STEEM",
+        "name": "Steem",
+        "label": "Steem (STEEM)",
+        "img": "/media/43717507/steem.png"
+      },
+      {
+        "key": "ZIL",
+        "name": "Zilliqa",
+        "label": "Zilliqa (ZIL)",
+        "img": "/media/37746856/zil.png"
+      },
+      {
+        "key": "ONT",
+        "name": "Ontology",
+        "label": "Ontology (ONT)",
+        "img": "/media/36798656/ont.png"
+      },
+      {
+        "key": "WAN",
+        "name": "Wanchain",
+        "label": "Wanchain (WAN)",
+        "img": "/media/9350742/wan.jpg"
+      },
+      {
+        "key": "SYS",
+        "name": "Syscoin",
+        "label": "Syscoin (SYS)",
+        "img": "/media/39456587/sys.png"
+      },
+      {
+        "key": "ZEN",
+        "name": "Horizen",
+        "label": "Horizen (ZEN)",
+        "img": "/media/37747044/zen.png"
+      },
+      {
+        "key": "THETA",
+        "name": "Theta Network",
+        "label": "Theta Network (THETA)",
+        "img": "/media/37746670/theta.png"
+      },
+      {
+        "key": "IOTX",
+        "name": "IoTeX Network",
+        "label": "IoTeX Network (IOTX)",
+        "img": "/media/37746980/iotx.png"
+      },
+      {
+        "key": "DATA",
+        "name": "Streamr",
+        "label": "Streamr (DATA)",
+        "img": "/media/37747082/data.png"
+      },
+      {
+        "key": "ARDR",
+        "name": "Ardor",
+        "label": "Ardor (ARDR)",
+        "img": "/media/37746964/ardr.png"
+      },
+      {
+        "key": "VET",
+        "name": "VeChain",
+        "label": "VeChain (VET)",
+        "img": "/media/12318129/ven.png"
+      },
+      {
+        "key": "RVN",
+        "name": "Ravencoin",
+        "label": "Ravencoin (RVN)",
+        "img": "/media/37746688/rvn.png"
+      },
+      {
+        "key": "ONG",
+        "name": "SoMee.Social",
+        "label": "SoMee.Social (ONG)",
+        "img": "/media/40200181/ong.png"
+      },
+      {
+        "key": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "label": "Artificial Superintelligence Alliance (FET)",
+        "img": "/media/45576550/asi.png"
+      },
+      {
+        "key": "CELR",
+        "name": "Celer Network",
+        "label": "Celer Network (CELR)",
+        "img": "/media/43717514/celr.png"
+      },
+      {
+        "key": "ATOM",
+        "name": "Cosmos",
+        "label": "Cosmos (ATOM)",
+        "img": "/media/37746867/atom.png"
+      },
+      {
+        "key": "PHB",
+        "name": "Phoenix Global [v2]",
+        "label": "Phoenix Global [v2] (PHB)",
+        "img": "/media/40124914/phbv1.png"
+      },
+      {
+        "key": "TFUEL",
+        "name": "Theta Fuel",
+        "label": "Theta Fuel (TFUEL)",
+        "img": "/media/43717502/tfuel.png"
+      },
+      {
+        "key": "ONE",
+        "name": "Harmony",
+        "label": "Harmony (ONE)",
+        "img": "/media/37746590/one.png"
+      },
+      { "key": "FTM", "name": "Fantom", "label": "Fantom (FTM)", "img": "/media/38553128/ftm.png" },
+      {
+        "key": "ALGO",
+        "name": "Algorand",
+        "label": "Algorand (ALGO)",
+        "img": "/media/38553120/algo.png"
+      },
+      {
+        "key": "DOGE",
+        "name": "Dogecoin",
+        "label": "Dogecoin (DOGE)",
+        "img": "/media/37746339/doge.png"
+      },
+      {
+        "key": "DUSK",
+        "name": "Dusk Network",
+        "label": "Dusk Network (DUSK)",
+        "img": "/media/43717587/dusk.png"
+      },
+      {
+        "key": "ANKR",
+        "name": "Ankr Network",
+        "label": "Ankr Network (ANKR)",
+        "img": "/media/37747591/ankr.png"
+      },
+      { "key": "CHZ", "name": "Chiliz", "label": "Chiliz (CHZ)", "img": "/media/44051312/chz.png" },
+      {
+        "key": "BAND",
+        "name": "Band Protocol",
+        "label": "Band Protocol (BAND)",
+        "img": "/media/43687809/band.png"
+      },
+      { "key": "XTZ", "name": "Tezos", "label": "Tezos (XTZ)", "img": "/media/37747535/xtz.png" },
+      {
+        "key": "HBAR",
+        "name": "Hedera Hashgraph",
+        "label": "Hedera Hashgraph (HBAR)",
+        "img": "/media/38553139/hbar.png"
+      },
+      { "key": "NKN", "name": "NKN", "label": "NKN (NKN)", "img": "/media/37746868/nkn.png" },
+      { "key": "STX", "name": "Stacks", "label": "Stacks (STX)", "img": "/media/37746986/stx.png" },
+      { "key": "KAVA", "name": "Kava", "label": "Kava (KAVA)", "img": "/media/37747651/kava.png" },
+      {
+        "key": "ARPA",
+        "name": "ARPA Chain",
+        "label": "ARPA Chain (ARPA)",
+        "img": "/media/38553312/arpa.png"
+      },
+      {
+        "key": "CTXC",
+        "name": "Cortex",
+        "label": "Cortex (CTXC)",
+        "img": "/media/30002149/ctxc.png"
+      },
+      {
+        "key": "BCH",
+        "name": "Bitcoin Cash",
+        "label": "Bitcoin Cash (BCH)",
+        "img": "/media/37746245/bch.png"
+      },
+      { "key": "VITE", "name": "VITE", "label": "VITE (VITE)", "img": "/media/40484946/vite.png" },
+      {
+        "key": "OGN",
+        "name": "Origin Protocol",
+        "label": "Origin Protocol (OGN)",
+        "img": "/media/37746928/ogn.png"
+      },
+      {
+        "key": "LTO",
+        "name": "LTO Network",
+        "label": "LTO Network (LTO)",
+        "img": "/media/37746972/lto.png"
+      },
+      { "key": "COTI", "name": "COTI", "label": "COTI (COTI)", "img": "/media/37746149/coti.png" },
+      {
+        "key": "STPT",
+        "name": "STP Network",
+        "label": "STP Network (STPT)",
+        "img": "/media/40219056/stpt.png"
+      },
+      { "key": "SOL", "name": "Solana", "label": "Solana (SOL)", "img": "/media/37747734/sol.png" },
+      {
+        "key": "CTSI",
+        "name": "Cartesi",
+        "label": "Cartesi (CTSI)",
+        "img": "/media/36935008/ctsi.png"
+      },
+      { "key": "HIVE", "name": "Hive", "label": "Hive (HIVE)", "img": "/media/37746903/hive.png" },
+      { "key": "CHR", "name": "Chroma", "label": "Chroma (CHR)", "img": "/media/37746691/chr.png" },
+      {
+        "key": "MDT",
+        "name": "Measurable Data Token",
+        "label": "Measurable Data Token (MDT)",
+        "img": "/media/43717665/mdt.png"
+      },
+      {
+        "key": "COMP",
+        "name": "Compound",
+        "label": "Compound (COMP)",
+        "img": "/media/37747538/comp.png"
+      },
+      { "key": "SXP", "name": "SXP", "label": "SXP (SXP)", "img": "/media/37746865/sxp.png" },
+      {
+        "key": "SNX",
+        "name": "Synthetix",
+        "label": "Synthetix (SNX)",
+        "img": "/media/37747673/snx.png"
+      },
+      { "key": "MKR", "name": "Maker", "label": "Maker (MKR)", "img": "/media/45673726/mkr.png" },
+      {
+        "key": "RUNE",
+        "name": "Thorchain",
+        "label": "Thorchain (RUNE)",
+        "img": "/media/38553142/runo.png"
+      },
+      {
+        "key": "FIO",
+        "name": "FIO Protocol",
+        "label": "FIO Protocol (FIO)",
+        "img": "/media/37747725/fio.png"
+      },
+      {
+        "key": "AVA",
+        "name": "Travala",
+        "label": "Travala (AVA)",
+        "img": "/media/37747635/ava.png"
+      },
+      {
+        "key": "YFI",
+        "name": "yearn.finance",
+        "label": "yearn.finance (YFI)",
+        "img": "/media/45673740/yfi.png"
+      },
+      { "key": "JST", "name": "JUST", "label": "JUST (JST)", "img": "/media/37746866/jst.png" },
+      {
+        "key": "CRV",
+        "name": "Curve DAO Token",
+        "label": "Curve DAO Token (CRV)",
+        "img": "/media/37747537/crv.png"
+      },
+      {
+        "key": "SAND",
+        "name": "The Sandbox",
+        "label": "The Sandbox (SAND)",
+        "img": "/media/37746667/sand.png"
+      },
+      {
+        "key": "NMR",
+        "name": "Numeraire",
+        "label": "Numeraire (NMR)",
+        "img": "/media/37746161/nmr.png"
+      },
+      {
+        "key": "DOT",
+        "name": "Polkadot",
+        "label": "Polkadot (DOT)",
+        "img": "/media/39334571/dot.png"
+      },
+      { "key": "IDEX", "name": "IDEX", "label": "IDEX (IDEX)", "img": "/media/40484970/idex.png" },
+      {
+        "key": "PAXG",
+        "name": "PAX Gold",
+        "label": "PAX Gold (PAXG)",
+        "img": "/media/37747633/paxg.png"
+      },
+      { "key": "TRB", "name": "Tellor", "label": "Tellor (TRB)", "img": "/media/37747582/trb.png" },
+      {
+        "key": "WBTC",
+        "name": "Wrapped Bitcoin",
+        "label": "Wrapped Bitcoin (WBTC)",
+        "img": "/media/35309588/wbtc.png"
+      },
+      {
+        "key": "SUSHI",
+        "name": "Sushi",
+        "label": "Sushi (SUSHI)",
+        "img": "/media/37746894/sushi.png"
+      },
+      { "key": "KSM", "name": "Kusama", "label": "Kusama (KSM)", "img": "/media/45576123/ksm.png" },
+      {
+        "key": "EGLD",
+        "name": "eGold",
+        "label": "eGold (EGLD)",
+        "img": "/media/44154180/egld.png"
+      },
+      { "key": "DIA", "name": "DIA", "label": "DIA (DIA)", "img": "/media/37747030/dia.png" },
+      { "key": "UMA", "name": "UMA", "label": "UMA (UMA)", "img": "/media/37072053/uma.png" },
+      {
+        "key": "BEL",
+        "name": "Bella Protocol",
+        "label": "Bella Protocol (BEL)",
+        "img": "/media/37746913/bel.png"
+      },
+      {
+        "key": "UNI",
+        "name": "Uniswap Protocol Token",
+        "label": "Uniswap Protocol Token (UNI)",
+        "img": "/media/37746885/uni.png"
+      },
+      {
+        "key": "OXT",
+        "name": "Orchid Protocol",
+        "label": "Orchid Protocol (OXT)",
+        "img": "/media/37746869/oxt.png"
+      },
+      {
+        "key": "AVAX",
+        "name": "Avalanche",
+        "label": "Avalanche (AVAX)",
+        "img": "/media/43977160/avax.png"
+      },
+      {
+        "key": "FLM",
+        "name": "Flamingo",
+        "label": "Flamingo (FLM)",
+        "img": "/media/38553100/flm.png"
+      },
+      {
+        "key": "SCRT",
+        "name": "Secret",
+        "label": "Secret (SCRT)",
+        "img": "/media/37305742/scrt.png"
+      },
+      { "key": "XVS", "name": "Venus", "label": "Venus (XVS)", "img": "/media/37747613/xvs.png" },
+      {
+        "key": "ALPHA",
+        "name": "Alpha Finance Lab",
+        "label": "Alpha Finance Lab (ALPHA)",
+        "img": "/media/37747634/alpha.png"
+      },
+      {
+        "key": "VIDT",
+        "name": "VIDT Datalink",
+        "label": "VIDT Datalink (VIDT)",
+        "img": "/media/43717531/vidt.png"
+      },
+      { "key": "AAVE", "name": "Aave", "label": "Aave (AAVE)", "img": "/media/37747534/aave.png" },
+      { "key": "NEAR", "name": "Near", "label": "Near (NEAR)", "img": "/media/45576309/near.png" },
+      {
+        "key": "FIL",
+        "name": "FileCoin",
+        "label": "FileCoin (FIL)",
+        "img": "/media/37747014/fil.png"
+      },
+      {
+        "key": "INJ",
+        "name": "Injective",
+        "label": "Injective (INJ)",
+        "img": "/media/43687858/inj.png"
+      },
+      {
+        "key": "AUDIO",
+        "name": "Audius",
+        "label": "Audius (AUDIO)",
+        "img": "/media/37747027/audio.png"
+      },
+      { "key": "CTK", "name": "Shentu", "label": "Shentu (CTK)", "img": "/media/40484985/ctk.png" },
+      {
+        "key": "AXS",
+        "name": "Axie Infinity Shards",
+        "label": "Axie Infinity Shards (AXS)",
+        "img": "/media/43687841/axs.png"
+      },
+      {
+        "key": "STRAX",
+        "name": "Stratis",
+        "label": "Stratis (STRAX)",
+        "img": "/media/37746904/strax.png"
+      },
+      {
+        "key": "ROSE",
+        "name": "Oasis Labs",
+        "label": "Oasis Labs (ROSE)",
+        "img": "/media/37746937/rose.png"
+      },
+      {
+        "key": "SKL",
+        "name": "SKALE Network",
+        "label": "SKALE Network (SKL)",
+        "img": "/media/37746911/skl.png"
+      },
+      {
+        "key": "GLM",
+        "name": "Golem Network Token",
+        "label": "Golem Network Token (GLM)",
+        "img": "/media/43687812/glm.png"
+      },
+      {
+        "key": "GRT",
+        "name": "The Graph",
+        "label": "The Graph (GRT)",
+        "img": "/media/37747239/grt.png"
+      },
+      {
+        "key": "1INCH",
+        "name": "1inch",
+        "label": "1inch (1INCH)",
+        "img": "/media/37747036/1inch.png"
+      },
+      {
+        "key": "OG",
+        "name": "OG Fan Token",
+        "label": "OG Fan Token (OG)",
+        "img": "/media/37747210/og.png"
+      },
+      { "key": "CELO", "name": "Celo", "label": "Celo (CELO)", "img": "/media/37747585/celo.png" },
+      {
+        "key": "RIF",
+        "name": "RIF Token",
+        "label": "RIF Token (RIF)",
+        "img": "/media/35309430/rif.jpg"
+      },
+      { "key": "TRU", "name": "TrueFi", "label": "TrueFi (TRU)", "img": "/media/37747178/tru.png" },
+      {
+        "key": "TWT",
+        "name": "Trust Wallet Token",
+        "label": "Trust Wallet Token (TWT)",
+        "img": "/media/37747700/twt.png"
+      },
+      {
+        "key": "LIT",
+        "name": "Litentry",
+        "label": "Litentry (LIT)",
+        "img": "/media/38553386/lit.png"
+      },
+      {
+        "key": "SFP",
+        "name": "SafePal",
+        "label": "SafePal (SFP)",
+        "img": "/media/43717575/sfp.png"
+      },
+      { "key": "DODO", "name": "DODO", "label": "DODO (DODO)", "img": "/media/37747680/dodo.png" },
+      {
+        "key": "CAKE",
+        "name": "PancakeSwap",
+        "label": "PancakeSwap (CAKE)",
+        "img": "/media/44154219/cake.png"
+      },
+      {
+        "key": "AUCTION",
+        "name": "Bounce",
+        "label": "Bounce (AUCTION)",
+        "img": "/media/39198131/auction-grande.png"
+      },
+      {
+        "key": "PHA",
+        "name": "Phala Network",
+        "label": "Phala Network (PHA)",
+        "img": "/media/37305519/pha.png"
+      },
+      {
+        "key": "BADGER",
+        "name": "Badger DAO",
+        "label": "Badger DAO (BADGER)",
+        "img": "/media/37746462/badger-dao-trans.png"
+      },
+      { "key": "FIS", "name": "Stafi", "label": "Stafi (FIS)", "img": "/media/37747783/fis.png" },
+      { "key": "OM", "name": "MANTRA", "label": "MANTRA (OM)", "img": "/media/43717810/om.png" },
+      {
+        "key": "POND",
+        "name": "Marlin",
+        "label": "Marlin (POND)",
+        "img": "/media/38553407/pond.png"
+      },
+      {
+        "key": "ALICE",
+        "name": "My Neighbor Alice",
+        "label": "My Neighbor Alice (ALICE)",
+        "img": "/media/37746591/alice.png"
+      },
+      {
+        "key": "PERP",
+        "name": "Perpetual Protocol",
+        "label": "Perpetual Protocol (PERP)",
+        "img": "/media/37747268/perp.png"
+      },
+      {
+        "key": "SUPER",
+        "name": "SuperVerse",
+        "label": "SuperVerse (SUPER)",
+        "img": "/media/43977031/super.png"
+      },
+      {
+        "key": "CFX",
+        "name": "Conflux Network",
+        "label": "Conflux Network (CFX)",
+        "img": "/media/37747293/cfx.png"
+      },
+      {
+        "key": "TKO",
+        "name": "Tokocrypto",
+        "label": "Tokocrypto (TKO)",
+        "img": "/media/37746998/tko.png"
+      },
+      {
+        "key": "TLM",
+        "name": "Alien Worlds",
+        "label": "Alien Worlds (TLM)",
+        "img": "/media/38553109/tlm.png"
+      },
+      {
+        "key": "FORTH",
+        "name": "Ampleforth Governance Token",
+        "label": "Ampleforth Governance Token (FORTH)",
+        "img": "/media/43607644/forth.png"
+      },
+      {
+        "key": "ICP",
+        "name": "Internet Computer",
+        "label": "Internet Computer (ICP)",
+        "img": "/media/37747502/icp.png"
+      },
+      { "key": "AR", "name": "Arweave", "label": "Arweave (AR)", "img": "/media/43881351/ar.png" },
+      {
+        "key": "LPT",
+        "name": "Livepeer",
+        "label": "Livepeer (LPT)",
+        "img": "/media/35264132/lpt.png"
+      },
+      {
+        "key": "ATA",
+        "name": "Automata",
+        "label": "Automata (ATA)",
+        "img": "/media/37747739/ata.png"
+      },
+      {
+        "key": "GTC",
+        "name": "Gitcoin",
+        "label": "Gitcoin (GTC)",
+        "img": "/media/37747686/gtc1.png"
+      },
+      {
+        "key": "BAKE",
+        "name": "BakeryToken",
+        "label": "BakeryToken (BAKE)",
+        "img": "/media/37746920/bake.png"
+      },
+      { "key": "MLN", "name": "Enzyme", "label": "Enzyme (MLN)", "img": "/media/39500853/mln.png" },
+      {
+        "key": "CLV",
+        "name": "Clover Finance",
+        "label": "Clover Finance (CLV)",
+        "img": "/media/37748267/clv1.png"
+      },
+      { "key": "QNT", "name": "Quant", "label": "Quant (QNT)", "img": "/media/43687849/qnt.png" },
+      { "key": "FLOW", "name": "Flow", "label": "Flow (FLOW)", "img": "/media/38553368/flow.png" },
+      {
+        "key": "MINA",
+        "name": "Mina Protocol",
+        "label": "Mina Protocol (MINA)",
+        "img": "/media/37747204/mina.png"
+      },
+      {
+        "key": "MBOX",
+        "name": "MOBOX",
+        "label": "MOBOX (MBOX)",
+        "img": "/media/37747034/mbox.png"
+      },
+      {
+        "key": "WAXP",
+        "name": "Worldwide Asset eXchange",
+        "label": "Worldwide Asset eXchange (WAXP)",
+        "img": "/media/37746259/waxp.png"
+      },
+      { "key": "DYDX", "name": "dYdX", "label": "dYdX (DYDX)", "img": "/media/43717493/dydx.png" },
+      { "key": "GALA", "name": "Gala", "label": "Gala (GALA)", "img": "/media/39500762/gala.png" },
+      {
+        "key": "ILV",
+        "name": "Illuvium",
+        "label": "Illuvium (ILV)",
+        "img": "/media/37746810/ilv.png"
+      },
+      {
+        "key": "YGG",
+        "name": "Yield Guild Games",
+        "label": "Yield Guild Games (YGG)",
+        "img": "/media/37748361/ygg.png"
+      },
+      {
+        "key": "FIDA",
+        "name": "Bonfida",
+        "label": "Bonfida (FIDA)",
+        "img": "/media/45734210/fida.png"
+      },
+      {
+        "key": "AGLD",
+        "name": "Adventure Gold",
+        "label": "Adventure Gold (AGLD)",
+        "img": "/media/38553417/agld.png"
+      },
+      {
+        "key": "RARE",
+        "name": "SuperRare",
+        "label": "SuperRare (RARE)",
+        "img": "/media/38554190/rare.png"
+      },
+      {
+        "key": "SSV",
+        "name": "ssv.network",
+        "label": "ssv.network (SSV)",
+        "img": "/media/39501259/ssv.png"
+      },
+      {
+        "key": "BNX",
+        "name": "BinaryX",
+        "label": "BinaryX (BNX)",
+        "img": "/media/39108977/bnx.png"
+      },
+      {
+        "key": "MOVR",
+        "name": "Moonriver",
+        "label": "Moonriver (MOVR)",
+        "img": "/media/38553373/movr.png"
+      },
+      {
+        "key": "ENS",
+        "name": "Ethereum Name Service",
+        "label": "Ethereum Name Service (ENS)",
+        "img": "/media/38554045/ens.png"
+      },
+      { "key": "QI", "name": "BENQI", "label": "BENQI (QI)", "img": "/media/43717694/qi.png" },
+      {
+        "key": "PYR",
+        "name": "Vulcan Forged",
+        "label": "Vulcan Forged (PYR)",
+        "img": "/media/37747135/pyr.png"
+      },
+      {
+        "key": "SANTOS",
+        "name": "Santos FC Fan Token",
+        "label": "Santos FC Fan Token (SANTOS)",
+        "img": "/media/39198159/santos.png"
+      },
+      {
+        "key": "BICO",
+        "name": "Biconomy",
+        "label": "Biconomy (BICO)",
+        "img": "/media/39198135/bico.png"
+      },
+      { "key": "FLUX", "name": "Flux", "label": "Flux (FLUX)", "img": "/media/37747474/flux.png" },
+      {
+        "key": "HIGH",
+        "name": "Highstreet",
+        "label": "Highstreet (HIGH)",
+        "img": "/media/39383057/high.png"
+      },
+      {
+        "key": "PEOPLE",
+        "name": "ConstitutionDAO",
+        "label": "ConstitutionDAO (PEOPLE)",
+        "img": "/media/39198201/people.png"
+      },
+      { "key": "JOE", "name": "JOE", "label": "JOE (JOE)", "img": "/media/38553934/joe.png" },
+      {
+        "key": "ACH",
+        "name": "Alchemy Pay",
+        "label": "Alchemy Pay (ACH)",
+        "img": "/media/43717530/ach.png"
+      },
+      {
+        "key": "IMX",
+        "name": "Immutable X",
+        "label": "Immutable X (IMX)",
+        "img": "/media/38554149/imx.png"
+      },
+      {
+        "key": "GLMR",
+        "name": "Moonbeam",
+        "label": "Moonbeam (GLMR)",
+        "img": "/media/39500747/glmr.png"
+      },
+      {
+        "key": "LOKA",
+        "name": "League of Kingdoms",
+        "label": "League of Kingdoms (LOKA)",
+        "img": "/media/39500866/loka.png"
+      },
+      { "key": "API3", "name": "API3", "label": "API3 (API3)", "img": "/media/37746935/api3.png" },
+      { "key": "ACA", "name": "Acala", "label": "Acala (ACA)", "img": "/media/39500944/aca.png" },
+      {
+        "key": "XNO",
+        "name": "Xeno Token",
+        "label": "Xeno Token (XNO)",
+        "img": "/media/37746672/xno.png"
+      },
+      {
+        "key": "WOO",
+        "name": "WOO Network",
+        "label": "WOO Network (WOO)",
+        "img": "/media/39501499/woo.png"
+      },
+      { "key": "GMT", "name": "STEPN", "label": "STEPN (GMT)", "img": "/media/39838490/gmt.png" },
+      { "key": "KDA", "name": "Kadena", "label": "Kadena (KDA)", "img": "/media/37747959/kda.png" },
+      {
+        "key": "APE",
+        "name": "ApeCoin",
+        "label": "ApeCoin (APE)",
+        "img": "/media/39838302/ape.png"
+      },
+      {
+        "key": "ASTR",
+        "name": "Astar",
+        "label": "Astar (ASTR)",
+        "img": "/media/39500950/astr.png"
+      },
+      { "key": "NEXO", "name": "NEXO", "label": "NEXO (NEXO)", "img": "/media/37746922/nexo.png" },
+      {
+        "key": "LDO",
+        "name": "Lido DAO",
+        "label": "Lido DAO (LDO)",
+        "img": "/media/40485192/ldo.png"
+      },
+      {
+        "key": "OP",
+        "name": "Optimism",
+        "label": "Optimism (OP)",
+        "img": "/media/40219338/op.png"
+      },
+      {
+        "key": "STG",
+        "name": "Stargate Finance",
+        "label": "Stargate Finance (STG)",
+        "img": "/media/39838517/stg.png"
+      },
+      {
+        "key": "POLYX",
+        "name": "Polymesh",
+        "label": "Polymesh (POLYX)",
+        "img": "/media/43717702/polyx.png"
+      },
+      { "key": "APT", "name": "Aptos", "label": "Aptos (APT)", "img": "/media/43881360/apt.png" },
+      {
+        "key": "HFT",
+        "name": "Hashflow",
+        "label": "Hashflow (HFT)",
+        "img": "/media/43881416/hft.png"
+      },
+      {
+        "key": "MAGIC",
+        "name": "Magic",
+        "label": "Magic (MAGIC)",
+        "img": "/media/43881453/magic.png"
+      },
+      {
+        "key": "LQTY",
+        "name": "Liquity",
+        "label": "Liquity (LQTY)",
+        "img": "/media/37746907/lqty.png"
+      },
+      { "key": "ID", "name": "SPACE", "label": "SPACE (ID)", "img": "/media/44082112/id.png" },
+      {
+        "key": "ARB",
+        "name": "Arbitrum",
+        "label": "Arbitrum (ARB)",
+        "img": "/media/44081950/arb.png"
+      },
+      {
+        "key": "EDU",
+        "name": "Open Campus",
+        "label": "Open Campus (EDU)",
+        "img": "/media/44154092/edu.png"
+      },
+      { "key": "SUI", "name": "Sui", "label": "Sui (SUI)", "img": "/media/44082045/sui.png" },
+      {
+        "key": "MAV",
+        "name": "Maverick Protocol",
+        "label": "Maverick Protocol (MAV)",
+        "img": "/media/44131956/mav.png"
+      },
+      {
+        "key": "PENDLE",
+        "name": "Pendle",
+        "label": "Pendle (PENDLE)",
+        "img": "/media/37747410/pendle.png"
+      },
+      {
+        "key": "ARKM",
+        "name": "Arkham",
+        "label": "Arkham (ARKM)",
+        "img": "/media/44145710/arkm.png"
+      },
+      {
+        "key": "WLD",
+        "name": "Worldcoin",
+        "label": "Worldcoin (WLD)",
+        "img": "/media/44145694/wld.png"
+      },
+      { "key": "SEI", "name": "Sei", "label": "Sei (SEI)", "img": "/media/44082123/sei.png" },
+      {
+        "key": "CYBER",
+        "name": "CyberConnect",
+        "label": "CyberConnect (CYBER)",
+        "img": "/media/44154121/cyber.png"
+      },
+      {
+        "key": "TIA",
+        "name": "Celestia",
+        "label": "Celestia (TIA)",
+        "img": "/media/44154182/tia.png"
+      },
+      {
+        "key": "ORDI",
+        "name": "Ordinals ",
+        "label": "Ordinals  (ORDI)",
+        "img": "/media/44154211/ordi.png"
+      },
+      {
+        "key": "VIC",
+        "name": "Viction",
+        "label": "Viction (VIC)",
+        "img": "/media/44213487/vic.png"
+      },
+      { "key": "BLUR", "name": "Blur", "label": "Blur (BLUR)", "img": "/media/44051188/blur.png" },
+      {
+        "key": "VANRY",
+        "name": "Vanar Chain",
+        "label": "Vanar Chain (VANRY)",
+        "img": "/media/44154335/vanry.png"
+      },
+      {
+        "key": "NFP",
+        "name": "NFPrompt",
+        "label": "NFPrompt (NFP)",
+        "img": "/media/44213486/nfp.png"
+      },
+      {
+        "key": "AI",
+        "name": "Sleepless",
+        "label": "Sleepless (AI)",
+        "img": "/media/44221380/ai.png"
+      },
+      { "key": "XAI", "name": "Xai", "label": "Xai (XAI)", "img": "/media/44213469/xai.png" },
+      {
+        "key": "MANTA",
+        "name": "Manta Network",
+        "label": "Manta Network (MANTA)",
+        "img": "/media/44213520/manta.png"
+      },
+      {
+        "key": "ALT",
+        "name": "Altlayer",
+        "label": "Altlayer (ALT)",
+        "img": "/media/44221839/alt.png"
+      },
+      {
+        "key": "PYTH",
+        "name": "Pyth Network",
+        "label": "Pyth Network (PYTH)",
+        "img": "/media/44154245/pyth.png"
+      },
+      {
+        "key": "RONIN",
+        "name": "Ronin",
+        "label": "Ronin (RONIN)",
+        "img": "/media/39838418/ron.png"
+      },
+      {
+        "key": "PIXEL",
+        "name": "Pixels",
+        "label": "Pixels (PIXEL)",
+        "img": "/media/44222941/pixel.png"
+      },
+      {
+        "key": "STRK",
+        "name": "Starknet",
+        "label": "Starknet (STRK)",
+        "img": "/media/44222403/strk.png"
+      },
+      {
+        "key": "PORTAL",
+        "name": "Portal",
+        "label": "Portal (PORTAL)",
+        "img": "/media/44223162/portal.png"
+      },
+      { "key": "AXL", "name": "Axelar", "label": "Axelar (AXL)", "img": "/media/43717605/axl.png" },
+      {
+        "key": "WIF",
+        "name": "dogwifhat",
+        "label": "dogwifhat (WIF)",
+        "img": "/media/44154324/wif.png"
+      },
+      { "key": "AEVO", "name": "Aevo", "label": "Aevo (AEVO)", "img": "/media/44223534/aevo.png" },
+      {
+        "key": "ETHFI",
+        "name": "Ether.fi",
+        "label": "Ether.fi (ETHFI)",
+        "img": "/media/44224177/ethfi.png"
+      },
+      { "key": "ENA", "name": "Ethena", "label": "Ethena (ENA)", "img": "/media/44224398/ena.png" },
+      { "key": "W", "name": "Wormhole", "label": "Wormhole (W)", "img": "/media/44224534/w.png" },
+      {
+        "key": "TNSR",
+        "name": "Tensor",
+        "label": "Tensor (TNSR)",
+        "img": "/media/44224533/tnsr.png"
+      },
+      { "key": "SAGA", "name": "Saga", "label": "Saga (SAGA)", "img": "/media/44224895/saga.png" },
+      {
+        "key": "TAO",
+        "name": "Bittensor",
+        "label": "Bittensor (TAO)",
+        "img": "/media/44154225/tao.png"
+      },
+      {
+        "key": "OMNI",
+        "name": "Omni Network",
+        "label": "Omni Network (OMNI)",
+        "img": "/media/44224711/omninet.png"
+      },
+      { "key": "REZ", "name": "Renzo", "label": "Renzo (REZ)", "img": "/media/44613223/rez.png" },
+      {
+        "key": "BB",
+        "name": "BounceBit",
+        "label": "BounceBit (BB)",
+        "img": "/media/44614156/bb.png"
+      },
+      { "key": "IO", "name": "io.net", "label": "io.net (IO)", "img": "/media/44614319/io.png" },
+      { "key": "ZK", "name": "zkSync", "label": "zkSync (ZK)", "img": "/media/44614325/zk.png" },
+      {
+        "key": "ZRO",
+        "name": "LayerZero",
+        "label": "LayerZero (ZRO)",
+        "img": "/media/44614459/zro.png"
+      },
+      {
+        "key": "BANANA",
+        "name": "Banana Gun",
+        "label": "Banana Gun (BANANA)",
+        "img": "/media/44221367/banana.png"
+      },
+      {
+        "key": "RENDER",
+        "name": "Render Network",
+        "label": "Render Network (RENDER)",
+        "img": "/media/39500858/rndr.png"
+      },
+      {
+        "key": "TON",
+        "name": "Toncoin",
+        "label": "Toncoin (TON)",
+        "img": "/media/43957906/toncoin.png"
+      },
+      {
+        "key": "SLF",
+        "name": "Self Chain",
+        "label": "Self Chain (SLF)",
+        "img": "/media/45734306/slf.png"
+      },
+      {
+        "key": "POL",
+        "name": "Polygon Ecosystem Token",
+        "label": "Polygon Ecosystem Token (POL)",
+        "img": "/media/44154196/pol.png"
+      },
+      {
+        "key": "EIGEN",
+        "name": "EigenLayer",
+        "label": "EigenLayer (EIGEN)",
+        "img": "/media/45673827/eigen.png"
+      },
+      {
+        "key": "PNUT",
+        "name": "Peanut the Squirrel",
+        "label": "Peanut the Squirrel (PNUT)",
+        "img": "/media/45734769/pnut.png"
+      },
+      {
+        "key": "MOVE",
+        "name": "Movement",
+        "label": "Movement (MOVE)",
+        "img": "/media/45735328/move.png"
+      },
+      {
+        "key": "ME",
+        "name": "Magic Eden",
+        "label": "Magic Eden (ME)",
+        "img": "/media/45735292/me.png"
+      },
+      {
+        "key": "USUAL",
+        "name": "Usual",
+        "label": "Usual (USUAL)",
+        "img": "/media/45735152/usual.png"
+      }
+    ]
+  },
+  "ETH": {
+    "name": "Ethereum",
+    "pairs": [
+      { "key": "QTUM", "name": "QTUM", "label": "QTUM (QTUM)", "img": "/media/37746863/qtum.png" },
+      { "key": "EOS", "name": "EOS", "label": "EOS (EOS)", "img": "/media/45735374/eos.png" },
+      {
+        "key": "SNT",
+        "name": "Status Network Token",
+        "label": "Status Network Token (SNT)",
+        "img": "/media/37747590/snt.png"
+      },
+      {
+        "key": "BNB",
+        "name": "Binance Coin",
+        "label": "Binance Coin (BNB)",
+        "img": "/media/40485170/bnb.png"
+      },
+      {
+        "key": "LRC",
+        "name": "Loopring",
+        "label": "Loopring (LRC)",
+        "img": "/media/36798698/lrc-logo.png"
+      },
+      {
+        "key": "LINK",
+        "name": "Chainlink",
+        "label": "Chainlink (LINK)",
+        "img": "/media/37746242/link.png"
+      },
+      { "key": "XVG", "name": "Verge", "label": "Verge (XVG)", "img": "/media/37747677/xvg.png" },
+      {
+        "key": "ETC",
+        "name": "Ethereum Classic",
+        "label": "Ethereum Classic (ETC)",
+        "img": "/media/37746862/etc.png"
+      },
+      { "key": "ZEC", "name": "ZCash", "label": "ZCash (ZEC)", "img": "/media/37746899/zec.png" },
+      { "key": "DASH", "name": "Dash", "label": "Dash (DASH)", "img": "/media/37746893/dash.png" },
+      { "key": "TRX", "name": "TRON", "label": "TRON (TRX)", "img": "/media/37746879/trx.png" },
+      {
+        "key": "POWR",
+        "name": "Power Ledger",
+        "label": "Power Ledger (POWR)",
+        "img": "/media/37746985/powr.png"
+      },
+      { "key": "XRP", "name": "XRP", "label": "XRP (XRP)", "img": "/media/38553096/xrp.png" },
+      {
+        "key": "MANA",
+        "name": "Decentraland",
+        "label": "Decentraland (MANA)",
+        "img": "/media/37746665/mana.png"
+      },
+      {
+        "key": "ADX",
+        "name": "Ambire AdEx",
+        "label": "Ambire AdEx (ADX)",
+        "img": "/media/40420669/adx.png"
+      },
+      {
+        "key": "ADA",
+        "name": "Cardano",
+        "label": "Cardano (ADA)",
+        "img": "/media/37746235/ada.png"
+      },
+      {
+        "key": "XLM",
+        "name": "Stellar",
+        "label": "Stellar (XLM)",
+        "img": "/media/37746346/xlm.png"
+      },
+      {
+        "key": "LTC",
+        "name": "Litecoin",
+        "label": "Litecoin (LTC)",
+        "img": "/media/37746243/ltc.png"
+      },
+      { "key": "ELF", "name": "aelf", "label": "aelf (ELF)", "img": "/media/37746930/elf.png" },
+      { "key": "RLC", "name": "iExec", "label": "iExec (RLC)", "img": "/media/37747617/rlc.png" },
+      {
+        "key": "STEEM",
+        "name": "Steem",
+        "label": "Steem (STEEM)",
+        "img": "/media/43717507/steem.png"
+      },
+      {
+        "key": "ZIL",
+        "name": "Zilliqa",
+        "label": "Zilliqa (ZIL)",
+        "img": "/media/37746856/zil.png"
+      },
+      {
+        "key": "IOTX",
+        "name": "IoTeX Network",
+        "label": "IoTeX Network (IOTX)",
+        "img": "/media/37746980/iotx.png"
+      },
+      { "key": "SC", "name": "Siacoin", "label": "Siacoin (SC)", "img": "/media/38553126/sc.png" },
+      { "key": "DENT", "name": "Dent", "label": "Dent (DENT)", "img": "/media/37746692/dent.png" },
+      { "key": "HOT", "name": "Holo", "label": "Holo (HOT)", "img": "/media/37746864/hot.png" },
+      {
+        "key": "VET",
+        "name": "VeChain",
+        "label": "VeChain (VET)",
+        "img": "/media/12318129/ven.png"
+      },
+      {
+        "key": "WBTC",
+        "name": "Wrapped Bitcoin",
+        "label": "Wrapped Bitcoin (WBTC)",
+        "img": "/media/35309588/wbtc.png"
+      },
+      { "key": "AAVE", "name": "Aave", "label": "Aave (AAVE)", "img": "/media/37747534/aave.png" },
+      {
+        "key": "SLP",
+        "name": "Smooth Love Potion",
+        "label": "Smooth Love Potion (SLP)",
+        "img": "/media/43717522/slp.png"
+      },
+      {
+        "key": "GRT",
+        "name": "The Graph",
+        "label": "The Graph (GRT)",
+        "img": "/media/37747239/grt.png"
+      },
+      {
+        "key": "AXS",
+        "name": "Axie Infinity Shards",
+        "label": "Axie Infinity Shards (AXS)",
+        "img": "/media/43687841/axs.png"
+      },
+      { "key": "FTM", "name": "Fantom", "label": "Fantom (FTM)", "img": "/media/38553128/ftm.png" },
+      { "key": "SOL", "name": "Solana", "label": "Solana (SOL)", "img": "/media/37747734/sol.png" },
+      {
+        "key": "SSV",
+        "name": "ssv.network",
+        "label": "ssv.network (SSV)",
+        "img": "/media/39501259/ssv.png"
+      },
+      {
+        "key": "DOT",
+        "name": "Polkadot",
+        "label": "Polkadot (DOT)",
+        "img": "/media/39334571/dot.png"
+      },
+      {
+        "key": "AVAX",
+        "name": "Avalanche",
+        "label": "Avalanche (AVAX)",
+        "img": "/media/43977160/avax.png"
+      },
+      { "key": "GALA", "name": "Gala", "label": "Gala (GALA)", "img": "/media/39500762/gala.png" },
+      {
+        "key": "ATOM",
+        "name": "Cosmos",
+        "label": "Cosmos (ATOM)",
+        "img": "/media/37746867/atom.png"
+      },
+      {
+        "key": "EGLD",
+        "name": "eGold",
+        "label": "eGold (EGLD)",
+        "img": "/media/44154180/egld.png"
+      },
+      {
+        "key": "ICP",
+        "name": "Internet Computer",
+        "label": "Internet Computer (ICP)",
+        "img": "/media/37747502/icp.png"
+      },
+      { "key": "NEAR", "name": "Near", "label": "Near (NEAR)", "img": "/media/45576309/near.png" },
+      {
+        "key": "ROSE",
+        "name": "Oasis Labs",
+        "label": "Oasis Labs (ROSE)",
+        "img": "/media/37746937/rose.png"
+      },
+      {
+        "key": "UNI",
+        "name": "Uniswap Protocol Token",
+        "label": "Uniswap Protocol Token (UNI)",
+        "img": "/media/37746885/uni.png"
+      },
+      {
+        "key": "RUNE",
+        "name": "Thorchain",
+        "label": "Thorchain (RUNE)",
+        "img": "/media/38553142/runo.png"
+      },
+      {
+        "key": "OP",
+        "name": "Optimism",
+        "label": "Optimism (OP)",
+        "img": "/media/40219338/op.png"
+      },
+      {
+        "key": "FIL",
+        "name": "FileCoin",
+        "label": "FileCoin (FIL)",
+        "img": "/media/37747014/fil.png"
+      },
+      { "key": "APT", "name": "Aptos", "label": "Aptos (APT)", "img": "/media/43881360/apt.png" },
+      {
+        "key": "WBETH",
+        "name": "Wrapped Beacon ETH",
+        "label": "Wrapped Beacon ETH (WBETH)",
+        "img": "/media/44154234/wbeth.png"
+      },
+      {
+        "key": "ARB",
+        "name": "Arbitrum",
+        "label": "Arbitrum (ARB)",
+        "img": "/media/44081950/arb.png"
+      },
+      {
+        "key": "CYBER",
+        "name": "CyberConnect",
+        "label": "CyberConnect (CYBER)",
+        "img": "/media/44154121/cyber.png"
+      },
+      {
+        "key": "INJ",
+        "name": "Injective",
+        "label": "Injective (INJ)",
+        "img": "/media/43687858/inj.png"
+      },
+      {
+        "key": "POL",
+        "name": "Polygon Ecosystem Token",
+        "label": "Polygon Ecosystem Token (POL)",
+        "img": "/media/44154196/pol.png"
+      }
+    ]
+  },
+  "USDT": {
+    "name": "Tether",
+    "pairs": [
+      {
+        "key": "BTC",
+        "name": "Bitcoin",
+        "label": "Bitcoin (BTC)",
+        "img": "/media/37746251/btc.png"
+      },
+      {
+        "key": "ETH",
+        "name": "Ethereum",
+        "label": "Ethereum (ETH)",
+        "img": "/media/37746238/eth.png"
+      },
+      {
+        "key": "BNB",
+        "name": "Binance Coin",
+        "label": "Binance Coin (BNB)",
+        "img": "/media/40485170/bnb.png"
+      },
+      { "key": "NEO", "name": "NEO", "label": "NEO (NEO)", "img": "/media/37746892/neo.png" },
+      {
+        "key": "LTC",
+        "name": "Litecoin",
+        "label": "Litecoin (LTC)",
+        "img": "/media/37746243/ltc.png"
+      },
+      { "key": "QTUM", "name": "QTUM", "label": "QTUM (QTUM)", "img": "/media/37746863/qtum.png" },
+      {
+        "key": "ADA",
+        "name": "Cardano",
+        "label": "Cardano (ADA)",
+        "img": "/media/37746235/ada.png"
+      },
+      { "key": "XRP", "name": "XRP", "label": "XRP (XRP)", "img": "/media/38553096/xrp.png" },
+      { "key": "EOS", "name": "EOS", "label": "EOS (EOS)", "img": "/media/45735374/eos.png" },
+      {
+        "key": "TUSD",
+        "name": "True USD",
+        "label": "True USD (TUSD)",
+        "img": "/media/38554125/tusd.png"
+      },
+      {
+        "key": "XLM",
+        "name": "Stellar",
+        "label": "Stellar (XLM)",
+        "img": "/media/37746346/xlm.png"
+      },
+      {
+        "key": "ONT",
+        "name": "Ontology",
+        "label": "Ontology (ONT)",
+        "img": "/media/36798656/ont.png"
+      },
+      { "key": "TRX", "name": "TRON", "label": "TRON (TRX)", "img": "/media/37746879/trx.png" },
+      {
+        "key": "ETC",
+        "name": "Ethereum Classic",
+        "label": "Ethereum Classic (ETC)",
+        "img": "/media/37746862/etc.png"
+      },
+      {
+        "key": "ICX",
+        "name": "ICON Project",
+        "label": "ICON Project (ICX)",
+        "img": "/media/37747580/icx.png"
+      },
+      { "key": "NULS", "name": "Nuls", "label": "Nuls (NULS)", "img": "/media/37747025/nuls.png" },
+      {
+        "key": "VET",
+        "name": "VeChain",
+        "label": "VeChain (VET)",
+        "img": "/media/12318129/ven.png"
+      },
+      {
+        "key": "USDC",
+        "name": "USD Coin",
+        "label": "USD Coin (USDC)",
+        "img": "/media/34835941/usdc.png"
+      },
+      {
+        "key": "LINK",
+        "name": "Chainlink",
+        "label": "Chainlink (LINK)",
+        "img": "/media/37746242/link.png"
+      },
+      {
+        "key": "ONG",
+        "name": "SoMee.Social",
+        "label": "SoMee.Social (ONG)",
+        "img": "/media/40200181/ong.png"
+      },
+      { "key": "HOT", "name": "Holo", "label": "Holo (HOT)", "img": "/media/37746864/hot.png" },
+      {
+        "key": "ZIL",
+        "name": "Zilliqa",
+        "label": "Zilliqa (ZIL)",
+        "img": "/media/37746856/zil.png"
+      },
+      { "key": "ZRX", "name": "0x", "label": "0x (ZRX)", "img": "/media/1383799/zrx.png" },
+      {
+        "key": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "label": "Artificial Superintelligence Alliance (FET)",
+        "img": "/media/45576550/asi.png"
+      },
+      {
+        "key": "BAT",
+        "name": "Basic Attention Token",
+        "label": "Basic Attention Token (BAT)",
+        "img": "/media/37746356/bat.png"
+      },
+      { "key": "ZEC", "name": "ZCash", "label": "ZCash (ZEC)", "img": "/media/37746899/zec.png" },
+      {
+        "key": "IOST",
+        "name": "IOS token",
+        "label": "IOS token (IOST)",
+        "img": "/media/38553159/iost.png"
+      },
+      {
+        "key": "CELR",
+        "name": "Celer Network",
+        "label": "Celer Network (CELR)",
+        "img": "/media/43717514/celr.png"
+      },
+      { "key": "DASH", "name": "Dash", "label": "Dash (DASH)", "img": "/media/37746893/dash.png" },
+      {
+        "key": "THETA",
+        "name": "Theta Network",
+        "label": "Theta Network (THETA)",
+        "img": "/media/37746670/theta.png"
+      },
+      {
+        "key": "ENJ",
+        "name": "Enjin Coin",
+        "label": "Enjin Coin (ENJ)",
+        "img": "/media/37747010/enj.png"
+      },
+      {
+        "key": "ATOM",
+        "name": "Cosmos",
+        "label": "Cosmos (ATOM)",
+        "img": "/media/37746867/atom.png"
+      },
+      {
+        "key": "TFUEL",
+        "name": "Theta Fuel",
+        "label": "Theta Fuel (TFUEL)",
+        "img": "/media/43717502/tfuel.png"
+      },
+      {
+        "key": "ONE",
+        "name": "Harmony",
+        "label": "Harmony (ONE)",
+        "img": "/media/37746590/one.png"
+      },
+      { "key": "FTM", "name": "Fantom", "label": "Fantom (FTM)", "img": "/media/38553128/ftm.png" },
+      {
+        "key": "ALGO",
+        "name": "Algorand",
+        "label": "Algorand (ALGO)",
+        "img": "/media/38553120/algo.png"
+      },
+      {
+        "key": "DOGE",
+        "name": "Dogecoin",
+        "label": "Dogecoin (DOGE)",
+        "img": "/media/37746339/doge.png"
+      },
+      {
+        "key": "DUSK",
+        "name": "Dusk Network",
+        "label": "Dusk Network (DUSK)",
+        "img": "/media/43717587/dusk.png"
+      },
+      {
+        "key": "ANKR",
+        "name": "Ankr Network",
+        "label": "Ankr Network (ANKR)",
+        "img": "/media/37747591/ankr.png"
+      },
+      { "key": "WIN", "name": "WINk", "label": "WINk (WIN)", "img": "/media/35651255/win.png" },
+      {
+        "key": "COS",
+        "name": "Contentos",
+        "label": "Contentos (COS)",
+        "img": "/media/39501137/cos.png"
+      },
+      { "key": "MTL", "name": "Metal", "label": "Metal (MTL)", "img": "/media/37746820/mtl.png" },
+      { "key": "DENT", "name": "Dent", "label": "Dent (DENT)", "img": "/media/37746692/dent.png" },
+      {
+        "key": "WAN",
+        "name": "Wanchain",
+        "label": "Wanchain (WAN)",
+        "img": "/media/9350742/wan.jpg"
+      },
+      {
+        "key": "FUN",
+        "name": "FUN Token",
+        "label": "FUN Token (FUN)",
+        "img": "/media/39500876/fun.png"
+      },
+      { "key": "CVC", "name": "Civic", "label": "Civic (CVC)", "img": "/media/40484984/cvc.png" },
+      { "key": "CHZ", "name": "Chiliz", "label": "Chiliz (CHZ)", "img": "/media/44051312/chz.png" },
+      {
+        "key": "BAND",
+        "name": "Band Protocol",
+        "label": "Band Protocol (BAND)",
+        "img": "/media/43687809/band.png"
+      },
+      { "key": "XTZ", "name": "Tezos", "label": "Tezos (XTZ)", "img": "/media/37747535/xtz.png" },
+      {
+        "key": "RVN",
+        "name": "Ravencoin",
+        "label": "Ravencoin (RVN)",
+        "img": "/media/37746688/rvn.png"
+      },
+      {
+        "key": "HBAR",
+        "name": "Hedera Hashgraph",
+        "label": "Hedera Hashgraph (HBAR)",
+        "img": "/media/38553139/hbar.png"
+      },
+      { "key": "NKN", "name": "NKN", "label": "NKN (NKN)", "img": "/media/37746868/nkn.png" },
+      { "key": "STX", "name": "Stacks", "label": "Stacks (STX)", "img": "/media/37746986/stx.png" },
+      { "key": "KAVA", "name": "Kava", "label": "Kava (KAVA)", "img": "/media/37747651/kava.png" },
+      {
+        "key": "ARPA",
+        "name": "ARPA Chain",
+        "label": "ARPA Chain (ARPA)",
+        "img": "/media/38553312/arpa.png"
+      },
+      {
+        "key": "IOTX",
+        "name": "IoTeX Network",
+        "label": "IoTeX Network (IOTX)",
+        "img": "/media/37746980/iotx.png"
+      },
+      { "key": "RLC", "name": "iExec", "label": "iExec (RLC)", "img": "/media/37747617/rlc.png" },
+      {
+        "key": "CTXC",
+        "name": "Cortex",
+        "label": "Cortex (CTXC)",
+        "img": "/media/30002149/ctxc.png"
+      },
+      {
+        "key": "BCH",
+        "name": "Bitcoin Cash",
+        "label": "Bitcoin Cash (BCH)",
+        "img": "/media/37746245/bch.png"
+      },
+      { "key": "TROY", "name": "Troy", "label": "Troy (TROY)", "img": "/media/39198100/troy.png" },
+      { "key": "VITE", "name": "VITE", "label": "VITE (VITE)", "img": "/media/40484946/vite.png" },
+      {
+        "key": "FTT",
+        "name": "FTX Token",
+        "label": "FTX Token (FTT)",
+        "img": "/media/35651305/ftxt.png"
+      },
+      {
+        "key": "OGN",
+        "name": "Origin Protocol",
+        "label": "Origin Protocol (OGN)",
+        "img": "/media/37746928/ogn.png"
+      },
+      { "key": "LSK", "name": "Lisk", "label": "Lisk (LSK)", "img": "/media/37747050/lsk.png" },
+      {
+        "key": "BNT",
+        "name": "Bancor Network Token",
+        "label": "Bancor Network Token (BNT)",
+        "img": "/media/37747631/bnt.png"
+      },
+      {
+        "key": "LTO",
+        "name": "LTO Network",
+        "label": "LTO Network (LTO)",
+        "img": "/media/37746972/lto.png"
+      },
+      {
+        "key": "MBL",
+        "name": "MovieBloc",
+        "label": "MovieBloc (MBL)",
+        "img": "/media/35650914/mbl.png"
+      },
+      { "key": "COTI", "name": "COTI", "label": "COTI (COTI)", "img": "/media/37746149/coti.png" },
+      {
+        "key": "STPT",
+        "name": "STP Network",
+        "label": "STP Network (STPT)",
+        "img": "/media/40219056/stpt.png"
+      },
+      {
+        "key": "DATA",
+        "name": "Streamr",
+        "label": "Streamr (DATA)",
+        "img": "/media/37747082/data.png"
+      },
+      { "key": "SOL", "name": "Solana", "label": "Solana (SOL)", "img": "/media/37747734/sol.png" },
+      {
+        "key": "CTSI",
+        "name": "Cartesi",
+        "label": "Cartesi (CTSI)",
+        "img": "/media/36935008/ctsi.png"
+      },
+      { "key": "HIVE", "name": "Hive", "label": "Hive (HIVE)", "img": "/media/37746903/hive.png" },
+      { "key": "CHR", "name": "Chroma", "label": "Chroma (CHR)", "img": "/media/37746691/chr.png" },
+      {
+        "key": "ARDR",
+        "name": "Ardor",
+        "label": "Ardor (ARDR)",
+        "img": "/media/37746964/ardr.png"
+      },
+      {
+        "key": "MDT",
+        "name": "Measurable Data Token",
+        "label": "Measurable Data Token (MDT)",
+        "img": "/media/43717665/mdt.png"
+      },
+      {
+        "key": "STMX",
+        "name": "StormX",
+        "label": "StormX (STMX)",
+        "img": "/media/38553414/stmx.png"
+      },
+      {
+        "key": "KNC",
+        "name": "Kyber Network Crystal v2",
+        "label": "Kyber Network Crystal v2 (KNC)",
+        "img": "/media/40219091/knc.png"
+      },
+      {
+        "key": "LRC",
+        "name": "Loopring",
+        "label": "Loopring (LRC)",
+        "img": "/media/36798698/lrc-logo.png"
+      },
+      {
+        "key": "COMP",
+        "name": "Compound",
+        "label": "Compound (COMP)",
+        "img": "/media/37747538/comp.png"
+      },
+      { "key": "SC", "name": "Siacoin", "label": "Siacoin (SC)", "img": "/media/38553126/sc.png" },
+      {
+        "key": "ZEN",
+        "name": "Horizen",
+        "label": "Horizen (ZEN)",
+        "img": "/media/37747044/zen.png"
+      },
+      {
+        "key": "SNX",
+        "name": "Synthetix",
+        "label": "Synthetix (SNX)",
+        "img": "/media/37747673/snx.png"
+      },
+      {
+        "key": "VTHO",
+        "name": "VeChainThor",
+        "label": "VeChainThor (VTHO)",
+        "img": "/media/37746957/vtho.png"
+      },
+      {
+        "key": "DGB",
+        "name": "DigiByte",
+        "label": "DigiByte (DGB)",
+        "img": "/media/38553121/dgb.png"
+      },
+      { "key": "SXP", "name": "SXP", "label": "SXP (SXP)", "img": "/media/37746865/sxp.png" },
+      { "key": "MKR", "name": "Maker", "label": "Maker (MKR)", "img": "/media/45673726/mkr.png" },
+      {
+        "key": "DCR",
+        "name": "Decred",
+        "label": "Decred (DCR)",
+        "img": "/media/1382607/decred.png"
+      },
+      {
+        "key": "STORJ",
+        "name": "Storj",
+        "label": "Storj (STORJ)",
+        "img": "/media/38553125/storj.png"
+      },
+      {
+        "key": "MANA",
+        "name": "Decentraland",
+        "label": "Decentraland (MANA)",
+        "img": "/media/37746665/mana.png"
+      },
+      {
+        "key": "YFI",
+        "name": "yearn.finance",
+        "label": "yearn.finance (YFI)",
+        "img": "/media/45673740/yfi.png"
+      },
+      {
+        "key": "BAL",
+        "name": "Balancer",
+        "label": "Balancer (BAL)",
+        "img": "/media/43607734/bal.png"
+      },
+      { "key": "KMD", "name": "Komodo", "label": "Komodo (KMD)", "img": "/media/37746989/kmd.png" },
+      { "key": "JST", "name": "JUST", "label": "JUST (JST)", "img": "/media/37746866/jst.png" },
+      {
+        "key": "CRV",
+        "name": "Curve DAO Token",
+        "label": "Curve DAO Token (CRV)",
+        "img": "/media/37747537/crv.png"
+      },
+      {
+        "key": "SAND",
+        "name": "The Sandbox",
+        "label": "The Sandbox (SAND)",
+        "img": "/media/37746667/sand.png"
+      },
+      {
+        "key": "NMR",
+        "name": "Numeraire",
+        "label": "Numeraire (NMR)",
+        "img": "/media/37746161/nmr.png"
+      },
+      {
+        "key": "DOT",
+        "name": "Polkadot",
+        "label": "Polkadot (DOT)",
+        "img": "/media/39334571/dot.png"
+      },
+      {
+        "key": "LUNA",
+        "name": "Terra",
+        "label": "Terra (LUNA)",
+        "img": "/media/40219253/luna.png"
+      },
+      {
+        "key": "RSR",
+        "name": "Reserve Rights",
+        "label": "Reserve Rights (RSR)",
+        "img": "/media/37747018/rsr.png"
+      },
+      {
+        "key": "PAXG",
+        "name": "PAX Gold",
+        "label": "PAX Gold (PAXG)",
+        "img": "/media/37747633/paxg.png"
+      },
+      { "key": "TRB", "name": "Tellor", "label": "Tellor (TRB)", "img": "/media/37747582/trb.png" },
+      {
+        "key": "SUSHI",
+        "name": "Sushi",
+        "label": "Sushi (SUSHI)",
+        "img": "/media/37746894/sushi.png"
+      },
+      { "key": "KSM", "name": "Kusama", "label": "Kusama (KSM)", "img": "/media/45576123/ksm.png" },
+      {
+        "key": "EGLD",
+        "name": "eGold",
+        "label": "eGold (EGLD)",
+        "img": "/media/44154180/egld.png"
+      },
+      { "key": "DIA", "name": "DIA", "label": "DIA (DIA)", "img": "/media/37747030/dia.png" },
+      {
+        "key": "RUNE",
+        "name": "Thorchain",
+        "label": "Thorchain (RUNE)",
+        "img": "/media/38553142/runo.png"
+      },
+      {
+        "key": "FIO",
+        "name": "FIO Protocol",
+        "label": "FIO Protocol (FIO)",
+        "img": "/media/37747725/fio.png"
+      },
+      { "key": "UMA", "name": "UMA", "label": "UMA (UMA)", "img": "/media/37072053/uma.png" },
+      {
+        "key": "BEL",
+        "name": "Bella Protocol",
+        "label": "Bella Protocol (BEL)",
+        "img": "/media/37746913/bel.png"
+      },
+      {
+        "key": "WING",
+        "name": "Wing Finance",
+        "label": "Wing Finance (WING)",
+        "img": "/media/43687821/wing.png"
+      },
+      {
+        "key": "UNI",
+        "name": "Uniswap Protocol Token",
+        "label": "Uniswap Protocol Token (UNI)",
+        "img": "/media/37746885/uni.png"
+      },
+      {
+        "key": "OXT",
+        "name": "Orchid Protocol",
+        "label": "Orchid Protocol (OXT)",
+        "img": "/media/37746869/oxt.png"
+      },
+      {
+        "key": "SUN",
+        "name": "Sun Token",
+        "label": "Sun Token (SUN)",
+        "img": "/media/37747732/sun.png"
+      },
+      {
+        "key": "AVAX",
+        "name": "Avalanche",
+        "label": "Avalanche (AVAX)",
+        "img": "/media/43977160/avax.png"
+      },
+      {
+        "key": "FLM",
+        "name": "Flamingo",
+        "label": "Flamingo (FLM)",
+        "img": "/media/38553100/flm.png"
+      },
+      { "key": "UTK", "name": "Utrust", "label": "Utrust (UTK)", "img": "/media/38553725/utk.png" },
+      { "key": "XVS", "name": "Venus", "label": "Venus (XVS)", "img": "/media/37747613/xvs.png" },
+      {
+        "key": "ALPHA",
+        "name": "Alpha Finance Lab",
+        "label": "Alpha Finance Lab (ALPHA)",
+        "img": "/media/37747634/alpha.png"
+      },
+      { "key": "AAVE", "name": "Aave", "label": "Aave (AAVE)", "img": "/media/37747534/aave.png" },
+      { "key": "NEAR", "name": "Near", "label": "Near (NEAR)", "img": "/media/45576309/near.png" },
+      {
+        "key": "FIL",
+        "name": "FileCoin",
+        "label": "FileCoin (FIL)",
+        "img": "/media/37747014/fil.png"
+      },
+      {
+        "key": "INJ",
+        "name": "Injective",
+        "label": "Injective (INJ)",
+        "img": "/media/43687858/inj.png"
+      },
+      {
+        "key": "AUDIO",
+        "name": "Audius",
+        "label": "Audius (AUDIO)",
+        "img": "/media/37747027/audio.png"
+      },
+      { "key": "CTK", "name": "Shentu", "label": "Shentu (CTK)", "img": "/media/40484985/ctk.png" },
+      {
+        "key": "AXS",
+        "name": "Axie Infinity Shards",
+        "label": "Axie Infinity Shards (AXS)",
+        "img": "/media/43687841/axs.png"
+      },
+      {
+        "key": "HARD",
+        "name": "Kava Lend",
+        "label": "Kava Lend (HARD)",
+        "img": "/media/37746905/hard.png"
+      },
+      {
+        "key": "STRAX",
+        "name": "Stratis",
+        "label": "Stratis (STRAX)",
+        "img": "/media/37746904/strax.png"
+      },
+      {
+        "key": "ROSE",
+        "name": "Oasis Labs",
+        "label": "Oasis Labs (ROSE)",
+        "img": "/media/37746937/rose.png"
+      },
+      {
+        "key": "AVA",
+        "name": "Travala",
+        "label": "Travala (AVA)",
+        "img": "/media/37747635/ava.png"
+      },
+      {
+        "key": "SKL",
+        "name": "SKALE Network",
+        "label": "SKALE Network (SKL)",
+        "img": "/media/37746911/skl.png"
+      },
+      {
+        "key": "GRT",
+        "name": "The Graph",
+        "label": "The Graph (GRT)",
+        "img": "/media/37747239/grt.png"
+      },
+      {
+        "key": "JUV",
+        "name": "Juventus Fan Token",
+        "label": "Juventus Fan Token (JUV)",
+        "img": "/media/37747217/juv.png"
+      },
+      {
+        "key": "PSG",
+        "name": "Paris Saint-Germain Fan Token",
+        "label": "Paris Saint-Germain Fan Token (PSG)",
+        "img": "/media/38553331/psg.png"
+      },
+      {
+        "key": "1INCH",
+        "name": "1inch",
+        "label": "1inch (1INCH)",
+        "img": "/media/37747036/1inch.png"
+      },
+      {
+        "key": "OG",
+        "name": "OG Fan Token",
+        "label": "OG Fan Token (OG)",
+        "img": "/media/37747210/og.png"
+      },
+      {
+        "key": "ATM",
+        "name": "Atletico de Madrid Fan Token",
+        "label": "Atletico de Madrid Fan Token (ATM)",
+        "img": "/media/37747212/atm.png"
+      },
+      {
+        "key": "ASR",
+        "name": "AS Roma Fan Token",
+        "label": "AS Roma Fan Token (ASR)",
+        "img": "/media/37747213/asr.png"
+      },
+      { "key": "CELO", "name": "Celo", "label": "Celo (CELO)", "img": "/media/37747585/celo.png" },
+      {
+        "key": "RIF",
+        "name": "RIF Token",
+        "label": "RIF Token (RIF)",
+        "img": "/media/35309430/rif.jpg"
+      },
+      { "key": "TRU", "name": "TrueFi", "label": "TrueFi (TRU)", "img": "/media/37747178/tru.png" },
+      {
+        "key": "CKB",
+        "name": "Nervos Network",
+        "label": "Nervos Network (CKB)",
+        "img": "/media/37747678/ckb.png"
+      },
+      {
+        "key": "TWT",
+        "name": "Trust Wallet Token",
+        "label": "Trust Wallet Token (TWT)",
+        "img": "/media/37747700/twt.png"
+      },
+      { "key": "FIRO", "name": "Firo", "label": "Firo (FIRO)", "img": "/media/37747103/firo.png" },
+      {
+        "key": "LIT",
+        "name": "Litentry",
+        "label": "Litentry (LIT)",
+        "img": "/media/38553386/lit.png"
+      },
+      {
+        "key": "SFP",
+        "name": "SafePal",
+        "label": "SafePal (SFP)",
+        "img": "/media/43717575/sfp.png"
+      },
+      { "key": "DODO", "name": "DODO", "label": "DODO (DODO)", "img": "/media/37747680/dodo.png" },
+      {
+        "key": "CAKE",
+        "name": "PancakeSwap",
+        "label": "PancakeSwap (CAKE)",
+        "img": "/media/44154219/cake.png"
+      },
+      {
+        "key": "ACM",
+        "name": "AC Milan Fan Token",
+        "label": "AC Milan Fan Token (ACM)",
+        "img": "/media/37746336/acm.png"
+      },
+      {
+        "key": "BADGER",
+        "name": "Badger DAO",
+        "label": "Badger DAO (BADGER)",
+        "img": "/media/37746462/badger-dao-trans.png"
+      },
+      { "key": "FIS", "name": "Stafi", "label": "Stafi (FIS)", "img": "/media/37747783/fis.png" },
+      { "key": "OM", "name": "MANTRA", "label": "MANTRA (OM)", "img": "/media/43717810/om.png" },
+      {
+        "key": "POND",
+        "name": "Marlin",
+        "label": "Marlin (POND)",
+        "img": "/media/38553407/pond.png"
+      },
+      {
+        "key": "DEGO",
+        "name": "Dego Finance",
+        "label": "Dego Finance (DEGO)",
+        "img": "/media/37746279/dego.png"
+      },
+      {
+        "key": "ALICE",
+        "name": "My Neighbor Alice",
+        "label": "My Neighbor Alice (ALICE)",
+        "img": "/media/37746591/alice.png"
+      },
+      {
+        "key": "LINA",
+        "name": "Linear",
+        "label": "Linear (LINA)",
+        "img": "/media/43961484/lina.png"
+      },
+      {
+        "key": "PERP",
+        "name": "Perpetual Protocol",
+        "label": "Perpetual Protocol (PERP)",
+        "img": "/media/37747268/perp.png"
+      },
+      {
+        "key": "SUPER",
+        "name": "SuperVerse",
+        "label": "SuperVerse (SUPER)",
+        "img": "/media/43977031/super.png"
+      },
+      {
+        "key": "CFX",
+        "name": "Conflux Network",
+        "label": "Conflux Network (CFX)",
+        "img": "/media/37747293/cfx.png"
+      },
+      {
+        "key": "TKO",
+        "name": "Tokocrypto",
+        "label": "Tokocrypto (TKO)",
+        "img": "/media/37746998/tko.png"
+      },
+      {
+        "key": "PUNDIX",
+        "name": "Pundi X",
+        "label": "Pundi X (PUNDIX)",
+        "img": "/media/37746795/pundix.png"
+      },
+      {
+        "key": "TLM",
+        "name": "Alien Worlds",
+        "label": "Alien Worlds (TLM)",
+        "img": "/media/38553109/tlm.png"
+      },
+      {
+        "key": "BAR",
+        "name": "FC Barcelona Fan Token",
+        "label": "FC Barcelona Fan Token (BAR)",
+        "img": "/media/37747373/bar.png"
+      },
+      {
+        "key": "FORTH",
+        "name": "Ampleforth Governance Token",
+        "label": "Ampleforth Governance Token (FORTH)",
+        "img": "/media/43607644/forth.png"
+      },
+      {
+        "key": "BAKE",
+        "name": "BakeryToken",
+        "label": "BakeryToken (BAKE)",
+        "img": "/media/37746920/bake.png"
+      },
+      {
+        "key": "BURGER",
+        "name": "Burger Swap",
+        "label": "Burger Swap (BURGER)",
+        "img": "/media/37747667/burger.png"
+      },
+      {
+        "key": "SLP",
+        "name": "Smooth Love Potion",
+        "label": "Smooth Love Potion (SLP)",
+        "img": "/media/43717522/slp.png"
+      },
+      {
+        "key": "SHIB",
+        "name": "Shiba Inu",
+        "label": "Shiba Inu (SHIB)",
+        "img": "/media/37747199/shib.png"
+      },
+      {
+        "key": "ICP",
+        "name": "Internet Computer",
+        "label": "Internet Computer (ICP)",
+        "img": "/media/37747502/icp.png"
+      },
+      { "key": "AR", "name": "Arweave", "label": "Arweave (AR)", "img": "/media/43881351/ar.png" },
+      {
+        "key": "MASK",
+        "name": "Mask Network",
+        "label": "Mask Network (MASK)",
+        "img": "/media/37746334/mask.png"
+      },
+      {
+        "key": "LPT",
+        "name": "Livepeer",
+        "label": "Livepeer (LPT)",
+        "img": "/media/35264132/lpt.png"
+      },
+      { "key": "XVG", "name": "Verge", "label": "Verge (XVG)", "img": "/media/37747677/xvg.png" },
+      {
+        "key": "ATA",
+        "name": "Automata",
+        "label": "Automata (ATA)",
+        "img": "/media/37747739/ata.png"
+      },
+      {
+        "key": "GTC",
+        "name": "Gitcoin",
+        "label": "Gitcoin (GTC)",
+        "img": "/media/37747686/gtc1.png"
+      },
+      {
+        "key": "PHA",
+        "name": "Phala Network",
+        "label": "Phala Network (PHA)",
+        "img": "/media/37305519/pha.png"
+      },
+      { "key": "MLN", "name": "Enzyme", "label": "Enzyme (MLN)", "img": "/media/39500853/mln.png" },
+      { "key": "DEXE", "name": "DeXe", "label": "DeXe (DEXE)", "img": "/media/43961465/dexe.png" },
+      { "key": "C98", "name": "Coin98", "label": "Coin98 (C98)", "img": "/media/37748313/c98.png" },
+      {
+        "key": "CLV",
+        "name": "Clover Finance",
+        "label": "Clover Finance (CLV)",
+        "img": "/media/37748267/clv1.png"
+      },
+      { "key": "QNT", "name": "Quant", "label": "Quant (QNT)", "img": "/media/43687849/qnt.png" },
+      { "key": "FLOW", "name": "Flow", "label": "Flow (FLOW)", "img": "/media/38553368/flow.png" },
+      {
+        "key": "MINA",
+        "name": "Mina Protocol",
+        "label": "Mina Protocol (MINA)",
+        "img": "/media/37747204/mina.png"
+      },
+      {
+        "key": "RAY",
+        "name": "Raydium",
+        "label": "Raydium (RAY)",
+        "img": "/media/39198084/ray.png"
+      },
+      {
+        "key": "FARM",
+        "name": "Harvest Finance",
+        "label": "Harvest Finance (FARM)",
+        "img": "/media/38553435/farm.png"
+      },
+      {
+        "key": "ALPACA",
+        "name": "Alpaca Finance",
+        "label": "Alpaca Finance (ALPACA)",
+        "img": "/media/37746474/alpaca.png"
+      },
+      {
+        "key": "QUICK",
+        "name": "Quickswap",
+        "label": "Quickswap (QUICK)",
+        "img": "/media/39109040/quick.png"
+      },
+      {
+        "key": "MBOX",
+        "name": "MOBOX",
+        "label": "MOBOX (MBOX)",
+        "img": "/media/37747034/mbox.png"
+      },
+      {
+        "key": "REQ",
+        "name": "Request Network",
+        "label": "Request Network (REQ)",
+        "img": "/media/39198095/req.png"
+      },
+      {
+        "key": "GHST",
+        "name": "Aavegotchi",
+        "label": "Aavegotchi (GHST)",
+        "img": "/media/38553406/ghst.png"
+      },
+      {
+        "key": "WAXP",
+        "name": "Worldwide Asset eXchange",
+        "label": "Worldwide Asset eXchange (WAXP)",
+        "img": "/media/37746259/waxp.png"
+      },
+      { "key": "GNO", "name": "Gnosis", "label": "Gnosis (GNO)", "img": "/media/37747765/gno.png" },
+      { "key": "XEC", "name": "eCash", "label": "eCash (XEC)", "img": "/media/38553094/ecash.png" },
+      { "key": "ELF", "name": "aelf", "label": "aelf (ELF)", "img": "/media/37746930/elf.png" },
+      { "key": "DYDX", "name": "dYdX", "label": "dYdX (DYDX)", "img": "/media/43717493/dydx.png" },
+      { "key": "IDEX", "name": "IDEX", "label": "IDEX (IDEX)", "img": "/media/40484970/idex.png" },
+      {
+        "key": "VIDT",
+        "name": "VIDT Datalink",
+        "label": "VIDT Datalink (VIDT)",
+        "img": "/media/43717531/vidt.png"
+      },
+      {
+        "key": "USDP",
+        "name": "Pax Dollar",
+        "label": "Pax Dollar (USDP)",
+        "img": "/media/38553592/usdp.png"
+      },
+      { "key": "GALA", "name": "Gala", "label": "Gala (GALA)", "img": "/media/39500762/gala.png" },
+      {
+        "key": "ILV",
+        "name": "Illuvium",
+        "label": "Illuvium (ILV)",
+        "img": "/media/37746810/ilv.png"
+      },
+      {
+        "key": "YGG",
+        "name": "Yield Guild Games",
+        "label": "Yield Guild Games (YGG)",
+        "img": "/media/37748361/ygg.png"
+      },
+      {
+        "key": "SYS",
+        "name": "Syscoin",
+        "label": "Syscoin (SYS)",
+        "img": "/media/39456587/sys.png"
+      },
+      { "key": "DF", "name": "dForce", "label": "dForce (DF)", "img": "/media/37747100/df.png" },
+      {
+        "key": "FIDA",
+        "name": "Bonfida",
+        "label": "Bonfida (FIDA)",
+        "img": "/media/45734210/fida.png"
+      },
+      {
+        "key": "AGLD",
+        "name": "Adventure Gold",
+        "label": "Adventure Gold (AGLD)",
+        "img": "/media/38553417/agld.png"
+      },
+      {
+        "key": "RAD",
+        "name": "Radworks",
+        "label": "Radworks (RAD)",
+        "img": "/media/37747938/rad.png"
+      },
+      {
+        "key": "BETA",
+        "name": "Beta Finance",
+        "label": "Beta Finance (BETA)",
+        "img": "/media/38553635/beta1.png"
+      },
+      {
+        "key": "RARE",
+        "name": "SuperRare",
+        "label": "SuperRare (RARE)",
+        "img": "/media/38554190/rare.png"
+      },
+      {
+        "key": "LAZIO",
+        "name": "Lazio Fan Token",
+        "label": "Lazio Fan Token (LAZIO)",
+        "img": "/media/38553965/lazio.png"
+      },
+      {
+        "key": "CHESS",
+        "name": "Tranchess",
+        "label": "Tranchess (CHESS)",
+        "img": "/media/38554148/chess.png"
+      },
+      {
+        "key": "ADX",
+        "name": "Ambire AdEx",
+        "label": "Ambire AdEx (ADX)",
+        "img": "/media/40420669/adx.png"
+      },
+      {
+        "key": "AUCTION",
+        "name": "Bounce",
+        "label": "Bounce (AUCTION)",
+        "img": "/media/39198131/auction-grande.png"
+      },
+      {
+        "key": "BNX",
+        "name": "BinaryX",
+        "label": "BinaryX (BNX)",
+        "img": "/media/39108977/bnx.png"
+      },
+      {
+        "key": "MOVR",
+        "name": "Moonriver",
+        "label": "Moonriver (MOVR)",
+        "img": "/media/38553373/movr.png"
+      },
+      {
+        "key": "CITY",
+        "name": "Manchester City Fan Token",
+        "label": "Manchester City Fan Token (CITY)",
+        "img": "/media/38553332/city.png"
+      },
+      {
+        "key": "ENS",
+        "name": "Ethereum Name Service",
+        "label": "Ethereum Name Service (ENS)",
+        "img": "/media/38554045/ens.png"
+      },
+      { "key": "QI", "name": "BENQI", "label": "BENQI (QI)", "img": "/media/43717694/qi.png" },
+      {
+        "key": "PORTO",
+        "name": "FC Porto",
+        "label": "FC Porto (PORTO)",
+        "img": "/media/39109099/porto.png"
+      },
+      {
+        "key": "POWR",
+        "name": "Power Ledger",
+        "label": "Power Ledger (POWR)",
+        "img": "/media/37746985/powr.png"
+      },
+      {
+        "key": "JASMY",
+        "name": "JasmyCoin",
+        "label": "JasmyCoin (JASMY)",
+        "img": "/media/38553376/jasmy.png"
+      },
+      { "key": "AMP", "name": "Amp", "label": "Amp (AMP)", "img": "/media/37747162/amp.png" },
+      {
+        "key": "PYR",
+        "name": "Vulcan Forged",
+        "label": "Vulcan Forged (PYR)",
+        "img": "/media/37747135/pyr.png"
+      },
+      {
+        "key": "ALCX",
+        "name": "Alchemix",
+        "label": "Alchemix (ALCX)",
+        "img": "/media/37746375/alcx.png"
+      },
+      {
+        "key": "SANTOS",
+        "name": "Santos FC Fan Token",
+        "label": "Santos FC Fan Token (SANTOS)",
+        "img": "/media/39198159/santos.png"
+      },
+      {
+        "key": "BICO",
+        "name": "Biconomy",
+        "label": "Biconomy (BICO)",
+        "img": "/media/39198135/bico.png"
+      },
+      { "key": "FLUX", "name": "Flux", "label": "Flux (FLUX)", "img": "/media/37747474/flux.png" },
+      {
+        "key": "FXS",
+        "name": "Frax Share",
+        "label": "Frax Share (FXS)",
+        "img": "/media/40200176/fxs.png"
+      },
+      {
+        "key": "VOXEL",
+        "name": "Voxies",
+        "label": "Voxies (VOXEL)",
+        "img": "/media/39198293/voxel.png"
+      },
+      {
+        "key": "HIGH",
+        "name": "Highstreet",
+        "label": "Highstreet (HIGH)",
+        "img": "/media/39383057/high.png"
+      },
+      {
+        "key": "CVX",
+        "name": "Convex Finance",
+        "label": "Convex Finance (CVX)",
+        "img": "/media/37747607/cvx.png"
+      },
+      {
+        "key": "PEOPLE",
+        "name": "ConstitutionDAO",
+        "label": "ConstitutionDAO (PEOPLE)",
+        "img": "/media/39198201/people.png"
+      },
+      {
+        "key": "SPELL",
+        "name": "Spell Token",
+        "label": "Spell Token (SPELL)",
+        "img": "/media/43717515/spell.png"
+      },
+      { "key": "JOE", "name": "JOE", "label": "JOE (JOE)", "img": "/media/38553934/joe.png" },
+      {
+        "key": "ACH",
+        "name": "Alchemy Pay",
+        "label": "Alchemy Pay (ACH)",
+        "img": "/media/43717530/ach.png"
+      },
+      {
+        "key": "IMX",
+        "name": "Immutable X",
+        "label": "Immutable X (IMX)",
+        "img": "/media/38554149/imx.png"
+      },
+      {
+        "key": "GLMR",
+        "name": "Moonbeam",
+        "label": "Moonbeam (GLMR)",
+        "img": "/media/39500747/glmr.png"
+      },
+      {
+        "key": "LOKA",
+        "name": "League of Kingdoms",
+        "label": "League of Kingdoms (LOKA)",
+        "img": "/media/39500866/loka.png"
+      },
+      {
+        "key": "SCRT",
+        "name": "Secret",
+        "label": "Secret (SCRT)",
+        "img": "/media/37305742/scrt.png"
+      },
+      { "key": "API3", "name": "API3", "label": "API3 (API3)", "img": "/media/37746935/api3.png" },
+      { "key": "ACA", "name": "Acala", "label": "Acala (ACA)", "img": "/media/39500944/aca.png" },
+      {
+        "key": "XNO",
+        "name": "Xeno Token",
+        "label": "Xeno Token (XNO)",
+        "img": "/media/37746672/xno.png"
+      },
+      {
+        "key": "WOO",
+        "name": "WOO Network",
+        "label": "WOO Network (WOO)",
+        "img": "/media/39501499/woo.png"
+      },
+      {
+        "key": "ALPINE",
+        "name": "Alpine F1 Team Fan Token",
+        "label": "Alpine F1 Team Fan Token (ALPINE)",
+        "img": "/media/39838206/alpine.png"
+      },
+      {
+        "key": "T",
+        "name": "Threshold Network Token",
+        "label": "Threshold Network Token (T)",
+        "img": "/media/39501419/t.png"
+      },
+      {
+        "key": "ASTR",
+        "name": "Astar",
+        "label": "Astar (ASTR)",
+        "img": "/media/39500950/astr.png"
+      },
+      { "key": "GMT", "name": "STEPN", "label": "STEPN (GMT)", "img": "/media/39838490/gmt.png" },
+      { "key": "KDA", "name": "Kadena", "label": "Kadena (KDA)", "img": "/media/37747959/kda.png" },
+      {
+        "key": "APE",
+        "name": "ApeCoin",
+        "label": "ApeCoin (APE)",
+        "img": "/media/39838302/ape.png"
+      },
+      { "key": "BSW", "name": "Biswap", "label": "Biswap (BSW)", "img": "/media/39838210/bsw.png" },
+      {
+        "key": "BIFI",
+        "name": "Beefy.Finance",
+        "label": "Beefy.Finance (BIFI)",
+        "img": "/media/37746640/bifi.png"
+      },
+      {
+        "key": "STEEM",
+        "name": "Steem",
+        "label": "Steem (STEEM)",
+        "img": "/media/43717507/steem.png"
+      },
+      { "key": "NEXO", "name": "NEXO", "label": "NEXO (NEXO)", "img": "/media/37746922/nexo.png" },
+      {
+        "key": "REI",
+        "name": "REI Network",
+        "label": "REI Network (REI)",
+        "img": "/media/40200170/rei.png"
+      },
+      {
+        "key": "LDO",
+        "name": "Lido DAO",
+        "label": "Lido DAO (LDO)",
+        "img": "/media/40485192/ldo.png"
+      },
+      {
+        "key": "OP",
+        "name": "Optimism",
+        "label": "Optimism (OP)",
+        "img": "/media/40219338/op.png"
+      },
+      {
+        "key": "LEVER",
+        "name": "LeverFi",
+        "label": "LeverFi (LEVER)",
+        "img": "/media/40484769/lever.png"
+      },
+      {
+        "key": "STG",
+        "name": "Stargate Finance",
+        "label": "Stargate Finance (STG)",
+        "img": "/media/39838517/stg.png"
+      },
+      {
+        "key": "LUNC",
+        "name": "Terra Classic",
+        "label": "Terra Classic (LUNC)",
+        "img": "/media/40219246/lunc.png"
+      },
+      { "key": "GMX", "name": "GMX", "label": "GMX (GMX)", "img": "/media/40055699/gmx.png" },
+      {
+        "key": "POLYX",
+        "name": "Polymesh",
+        "label": "Polymesh (POLYX)",
+        "img": "/media/43717702/polyx.png"
+      },
+      { "key": "APT", "name": "Aptos", "label": "Aptos (APT)", "img": "/media/43881360/apt.png" },
+      {
+        "key": "OSMO",
+        "name": "Osmosis",
+        "label": "Osmosis (OSMO)",
+        "img": "/media/39500918/osmo.png"
+      },
+      {
+        "key": "HFT",
+        "name": "Hashflow",
+        "label": "Hashflow (HFT)",
+        "img": "/media/43881416/hft.png"
+      },
+      {
+        "key": "PHB",
+        "name": "Phoenix Global [v2]",
+        "label": "Phoenix Global [v2] (PHB)",
+        "img": "/media/40124914/phbv1.png"
+      },
+      {
+        "key": "HOOK",
+        "name": "Hooked Protocol",
+        "label": "Hooked Protocol (HOOK)",
+        "img": "/media/44150375/hook.png"
+      },
+      {
+        "key": "MAGIC",
+        "name": "Magic",
+        "label": "Magic (MAGIC)",
+        "img": "/media/43881453/magic.png"
+      },
+      {
+        "key": "HIFI",
+        "name": "Hifi Finance",
+        "label": "Hifi Finance (HIFI)",
+        "img": "/media/44051252/hifi.png"
+      },
+      {
+        "key": "RPL",
+        "name": "RocketPool",
+        "label": "RocketPool (RPL)",
+        "img": "/media/43961461/rpl.png"
+      },
+      {
+        "key": "PROS",
+        "name": "Prosper",
+        "label": "Prosper (PROS)",
+        "img": "/media/43961518/pros.png"
+      },
+      {
+        "key": "GNS",
+        "name": "Gains Network",
+        "label": "Gains Network (GNS)",
+        "img": "/media/40219374/gns.png"
+      },
+      {
+        "key": "SYN",
+        "name": "Synapse",
+        "label": "Synapse (SYN)",
+        "img": "/media/44082125/syn.png"
+      },
+      {
+        "key": "VIB",
+        "name": "Viberate",
+        "label": "Viberate (VIB)",
+        "img": "/media/43687848/vib.png"
+      },
+      {
+        "key": "SSV",
+        "name": "ssv.network",
+        "label": "ssv.network (SSV)",
+        "img": "/media/39501259/ssv.png"
+      },
+      {
+        "key": "LQTY",
+        "name": "Liquity",
+        "label": "Liquity (LQTY)",
+        "img": "/media/37746907/lqty.png"
+      },
+      { "key": "AMB", "name": "AirDAO", "label": "AirDAO (AMB)", "img": "/media/44051301/amb.png" },
+      {
+        "key": "USTC",
+        "name": "TerraClassicUSD",
+        "label": "TerraClassicUSD (USTC)",
+        "img": "/media/37305450/ust.png"
+      },
+      { "key": "GAS", "name": "Gas", "label": "Gas (GAS)", "img": "/media/37747638/gas.png" },
+      {
+        "key": "GLM",
+        "name": "Golem Network Token",
+        "label": "Golem Network Token (GLM)",
+        "img": "/media/43687812/glm.png"
+      },
+      {
+        "key": "PROM",
+        "name": "Prometeus",
+        "label": "Prometeus (PROM)",
+        "img": "/media/39838445/prom.png"
+      },
+      {
+        "key": "QKC",
+        "name": "QuarkChain",
+        "label": "QuarkChain (QKC)",
+        "img": "/media/43687846/qkc.png"
+      },
+      {
+        "key": "UFT",
+        "name": "UniLend Finance",
+        "label": "UniLend Finance (UFT)",
+        "img": "/media/37747770/uft.png"
+      },
+      { "key": "ID", "name": "SPACE", "label": "SPACE (ID)", "img": "/media/44082112/id.png" },
+      {
+        "key": "ARB",
+        "name": "Arbitrum",
+        "label": "Arbitrum (ARB)",
+        "img": "/media/44081950/arb.png"
+      },
+      {
+        "key": "RDNT",
+        "name": "Radiant Capital",
+        "label": "Radiant Capital (RDNT)",
+        "img": "/media/43881334/rdnt.png"
+      },
+      {
+        "key": "WBTC",
+        "name": "Wrapped Bitcoin",
+        "label": "Wrapped Bitcoin (WBTC)",
+        "img": "/media/35309588/wbtc.png"
+      },
+      {
+        "key": "EDU",
+        "name": "Open Campus",
+        "label": "Open Campus (EDU)",
+        "img": "/media/44154092/edu.png"
+      },
+      { "key": "SUI", "name": "Sui", "label": "Sui (SUI)", "img": "/media/44082045/sui.png" },
+      {
+        "key": "AERGO",
+        "name": "AERGO",
+        "label": "AERGO (AERGO)",
+        "img": "/media/44051328/aergo.png"
+      },
+      { "key": "PEPE", "name": "Pepe", "label": "Pepe (PEPE)", "img": "/media/44082118/pepe.png" },
+      {
+        "key": "FLOKI",
+        "name": "Floki Inu",
+        "label": "Floki Inu (FLOKI)",
+        "img": "/media/38553226/floki.png"
+      },
+      {
+        "key": "AST",
+        "name": "AirSwap",
+        "label": "AirSwap (AST)",
+        "img": "/media/39500861/ast.png"
+      },
+      {
+        "key": "SNT",
+        "name": "Status Network Token",
+        "label": "Status Network Token (SNT)",
+        "img": "/media/37747590/snt.png"
+      },
+      {
+        "key": "COMBO",
+        "name": "COMBO",
+        "label": "COMBO (COMBO)",
+        "img": "/media/44145693/combo.png"
+      },
+      {
+        "key": "MAV",
+        "name": "Maverick Protocol",
+        "label": "Maverick Protocol (MAV)",
+        "img": "/media/44131956/mav.png"
+      },
+      {
+        "key": "PENDLE",
+        "name": "Pendle",
+        "label": "Pendle (PENDLE)",
+        "img": "/media/37747410/pendle.png"
+      },
+      {
+        "key": "ARKM",
+        "name": "Arkham",
+        "label": "Arkham (ARKM)",
+        "img": "/media/44145710/arkm.png"
+      },
+      {
+        "key": "WBETH",
+        "name": "Wrapped Beacon ETH",
+        "label": "Wrapped Beacon ETH (WBETH)",
+        "img": "/media/44154234/wbeth.png"
+      },
+      {
+        "key": "WLD",
+        "name": "Worldcoin",
+        "label": "Worldcoin (WLD)",
+        "img": "/media/44145694/wld.png"
+      },
+      {
+        "key": "FDUSD",
+        "name": "First Digital USD",
+        "label": "First Digital USD (FDUSD)",
+        "img": "/media/45735364/fdusd.png"
+      },
+      { "key": "SEI", "name": "Sei", "label": "Sei (SEI)", "img": "/media/44082123/sei.png" },
+      {
+        "key": "CYBER",
+        "name": "CyberConnect",
+        "label": "CyberConnect (CYBER)",
+        "img": "/media/44154121/cyber.png"
+      },
+      { "key": "ARK", "name": "ARK", "label": "ARK (ARK)", "img": "/media/37746978/ark.png" },
+      {
+        "key": "CREAM",
+        "name": "Cream",
+        "label": "Cream (CREAM)",
+        "img": "/media/39501143/cream.png"
+      },
+      { "key": "IQ", "name": "IQ", "label": "IQ (IQ)", "img": "/media/43957862/iq.png" },
+      {
+        "key": "NTRN",
+        "name": "Neutron",
+        "label": "Neutron (NTRN)",
+        "img": "/media/44154185/ntrn.png"
+      },
+      {
+        "key": "TIA",
+        "name": "Celestia",
+        "label": "Celestia (TIA)",
+        "img": "/media/44154182/tia.png"
+      },
+      {
+        "key": "MEME",
+        "name": "Memecoin",
+        "label": "Memecoin (MEME)",
+        "img": "/media/44154224/meme.png"
+      },
+      {
+        "key": "ORDI",
+        "name": "Ordinals ",
+        "label": "Ordinals  (ORDI)",
+        "img": "/media/44154211/ordi.png"
+      },
+      {
+        "key": "PIVX",
+        "name": "Private Instant Verified Transaction",
+        "label": "Private Instant Verified Transaction (PIVX)",
+        "img": "/media/37459237/pivx.png"
+      },
+      {
+        "key": "VIC",
+        "name": "Viction",
+        "label": "Viction (VIC)",
+        "img": "/media/44213487/vic.png"
+      },
+      { "key": "BLUR", "name": "Blur", "label": "Blur (BLUR)", "img": "/media/44051188/blur.png" },
+      {
+        "key": "VANRY",
+        "name": "Vanar Chain",
+        "label": "Vanar Chain (VANRY)",
+        "img": "/media/44154335/vanry.png"
+      },
+      {
+        "key": "AEUR",
+        "name": "Anchored Coins AEUR",
+        "label": "Anchored Coins AEUR (AEUR)",
+        "img": "/media/44213555/aeur.png"
+      },
+      { "key": "JTO", "name": "Jito", "label": "Jito (JTO)", "img": "/media/44154280/jito.png" },
+      {
+        "key": "1000SATS",
+        "name": "SATS",
+        "label": "SATS (1000SATS)",
+        "img": "/media/44154304/1000sats.png"
+      },
+      { "key": "BONK", "name": "Bonk", "label": "Bonk (BONK)", "img": "/media/43977068/bonk.png" },
+      {
+        "key": "ACE",
+        "name": "Fusionist",
+        "label": "Fusionist (ACE)",
+        "img": "/media/44213531/ace.png"
+      },
+      {
+        "key": "NFP",
+        "name": "NFPrompt",
+        "label": "NFPrompt (NFP)",
+        "img": "/media/44213486/nfp.png"
+      },
+      {
+        "key": "AI",
+        "name": "Sleepless",
+        "label": "Sleepless (AI)",
+        "img": "/media/44221380/ai.png"
+      },
+      { "key": "XAI", "name": "Xai", "label": "Xai (XAI)", "img": "/media/44213469/xai.png" },
+      {
+        "key": "MANTA",
+        "name": "Manta Network",
+        "label": "Manta Network (MANTA)",
+        "img": "/media/44213520/manta.png"
+      },
+      {
+        "key": "ALT",
+        "name": "Altlayer",
+        "label": "Altlayer (ALT)",
+        "img": "/media/44221839/alt.png"
+      },
+      {
+        "key": "JUP",
+        "name": "Jupiter",
+        "label": "Jupiter (JUP)",
+        "img": "/media/44222180/jup.png"
+      },
+      {
+        "key": "PYTH",
+        "name": "Pyth Network",
+        "label": "Pyth Network (PYTH)",
+        "img": "/media/44154245/pyth.png"
+      },
+      {
+        "key": "RONIN",
+        "name": "Ronin",
+        "label": "Ronin (RONIN)",
+        "img": "/media/39838418/ron.png"
+      },
+      {
+        "key": "DYM",
+        "name": "Dymension",
+        "label": "Dymension (DYM)",
+        "img": "/media/44221947/dym.png"
+      },
+      {
+        "key": "PIXEL",
+        "name": "Pixels",
+        "label": "Pixels (PIXEL)",
+        "img": "/media/44222941/pixel.png"
+      },
+      {
+        "key": "STRK",
+        "name": "Starknet",
+        "label": "Starknet (STRK)",
+        "img": "/media/44222403/strk.png"
+      },
+      {
+        "key": "PORTAL",
+        "name": "Portal",
+        "label": "Portal (PORTAL)",
+        "img": "/media/44223162/portal.png"
+      },
+      {
+        "key": "PDA",
+        "name": "PlayDapp",
+        "label": "PlayDapp (PDA)",
+        "img": "/media/44612999/pda.png"
+      },
+      { "key": "AXL", "name": "Axelar", "label": "Axelar (AXL)", "img": "/media/43717605/axl.png" },
+      {
+        "key": "WIF",
+        "name": "dogwifhat",
+        "label": "dogwifhat (WIF)",
+        "img": "/media/44154324/wif.png"
+      },
+      {
+        "key": "METIS",
+        "name": "Metis Token",
+        "label": "Metis Token (METIS)",
+        "img": "/media/38553936/metis.png"
+      },
+      { "key": "AEVO", "name": "Aevo", "label": "Aevo (AEVO)", "img": "/media/44223534/aevo.png" },
+      {
+        "key": "BOME",
+        "name": "BOOK OF MEME",
+        "label": "BOOK OF MEME (BOME)",
+        "img": "/media/44224537/bome.png"
+      },
+      {
+        "key": "ETHFI",
+        "name": "Ether.fi",
+        "label": "Ether.fi (ETHFI)",
+        "img": "/media/44224177/ethfi.png"
+      },
+      { "key": "ENA", "name": "Ethena", "label": "Ethena (ENA)", "img": "/media/44224398/ena.png" },
+      { "key": "W", "name": "Wormhole", "label": "Wormhole (W)", "img": "/media/44224534/w.png" },
+      {
+        "key": "TNSR",
+        "name": "Tensor",
+        "label": "Tensor (TNSR)",
+        "img": "/media/44224533/tnsr.png"
+      },
+      { "key": "SAGA", "name": "Saga", "label": "Saga (SAGA)", "img": "/media/44224895/saga.png" },
+      {
+        "key": "TAO",
+        "name": "Bittensor",
+        "label": "Bittensor (TAO)",
+        "img": "/media/44154225/tao.png"
+      },
+      {
+        "key": "OMNI",
+        "name": "Omni Network",
+        "label": "Omni Network (OMNI)",
+        "img": "/media/44224711/omninet.png"
+      },
+      { "key": "REZ", "name": "Renzo", "label": "Renzo (REZ)", "img": "/media/44613223/rez.png" },
+      {
+        "key": "BB",
+        "name": "BounceBit",
+        "label": "BounceBit (BB)",
+        "img": "/media/44614156/bb.png"
+      },
+      {
+        "key": "NOT",
+        "name": "Notcoin",
+        "label": "Notcoin (NOT)",
+        "img": "/media/44613958/not.png"
+      },
+      { "key": "IO", "name": "io.net", "label": "io.net (IO)", "img": "/media/44614319/io.png" },
+      { "key": "ZK", "name": "zkSync", "label": "zkSync (ZK)", "img": "/media/44614325/zk.png" },
+      {
+        "key": "LISTA",
+        "name": "Lista DAO",
+        "label": "Lista DAO (LISTA)",
+        "img": "/media/44614497/lista.png"
+      },
+      {
+        "key": "ZRO",
+        "name": "LayerZero",
+        "label": "LayerZero (ZRO)",
+        "img": "/media/44614459/zro.png"
+      },
+      { "key": "G", "name": "Gravity", "label": "Gravity (G)", "img": "/media/45576572/g.png" },
+      {
+        "key": "BANANA",
+        "name": "Banana Gun",
+        "label": "Banana Gun (BANANA)",
+        "img": "/media/44221367/banana.png"
+      },
+      {
+        "key": "RENDER",
+        "name": "Render Network",
+        "label": "Render Network (RENDER)",
+        "img": "/media/39500858/rndr.png"
+      },
+      {
+        "key": "TON",
+        "name": "Toncoin",
+        "label": "Toncoin (TON)",
+        "img": "/media/43957906/toncoin.png"
+      },
+      { "key": "DOGS", "name": "Dogs", "label": "Dogs (DOGS)", "img": "/media/45673751/dogs.png" },
+      {
+        "key": "EURI",
+        "name": "Eurite",
+        "label": "Eurite (EURI)",
+        "img": "/media/45673890/euri.png"
+      },
+      {
+        "key": "SLF",
+        "name": "Self Chain",
+        "label": "Self Chain (SLF)",
+        "img": "/media/45734306/slf.png"
+      },
+      {
+        "key": "POL",
+        "name": "Polygon Ecosystem Token",
+        "label": "Polygon Ecosystem Token (POL)",
+        "img": "/media/44154196/pol.png"
+      },
+      {
+        "key": "NEIRO",
+        "name": "Neiro",
+        "label": "Neiro (NEIRO)",
+        "img": "/media/45734241/neiro.png"
+      },
+      {
+        "key": "TURBO",
+        "name": "Turbo",
+        "label": "Turbo (TURBO)",
+        "img": "/media/44613984/turbo.png"
+      },
+      {
+        "key": "CATI",
+        "name": "Catizen",
+        "label": "Catizen (CATI)",
+        "img": "/media/45734220/cati.png"
+      },
+      {
+        "key": "HMSTR",
+        "name": "Hamster Kombat",
+        "label": "Hamster Kombat (HMSTR)",
+        "img": "/media/45734261/hmstr.png"
+      },
+      {
+        "key": "EIGEN",
+        "name": "EigenLayer",
+        "label": "EigenLayer (EIGEN)",
+        "img": "/media/45673827/eigen.png"
+      },
+      {
+        "key": "BNSOL",
+        "name": "Binance Staked SOL",
+        "label": "Binance Staked SOL (BNSOL)",
+        "img": "/media/45673821/bnsol.png"
+      },
+      {
+        "key": "LUMIA",
+        "name": "Lumia",
+        "label": "Lumia (LUMIA)",
+        "img": "/media/45734890/lumia.png"
+      },
+      { "key": "KAIA", "name": "Kaia", "label": "Kaia (KAIA)", "img": "/media/40484639/klay.png" },
+      {
+        "key": "COW",
+        "name": "CoW Protocol",
+        "label": "CoW Protocol (COW)",
+        "img": "/media/44039358/cow.png"
+      },
+      {
+        "key": "CETUS",
+        "name": "Cetus Protocol",
+        "label": "Cetus Protocol (CETUS)",
+        "img": "/media/44221342/cetus.png"
+      },
+      {
+        "key": "PNUT",
+        "name": "Peanut the Squirrel",
+        "label": "Peanut the Squirrel (PNUT)",
+        "img": "/media/45734769/pnut.png"
+      },
+      {
+        "key": "ACT",
+        "name": "Act I The AI Prophecy",
+        "label": "Act I The AI Prophecy (ACT)",
+        "img": "/media/45735064/act.png"
+      },
+      {
+        "key": "USUAL",
+        "name": "Usual",
+        "label": "Usual (USUAL)",
+        "img": "/media/45735152/usual.png"
+      },
+      {
+        "key": "ACX",
+        "name": "Across Protocol",
+        "label": "Across Protocol (ACX)",
+        "img": "/media/43977237/acx.png"
+      },
+      { "key": "ORCA", "name": "Orca", "label": "Orca (ORCA)", "img": "/media/39501027/orca.png" },
+      {
+        "key": "MOVE",
+        "name": "Movement",
+        "label": "Movement (MOVE)",
+        "img": "/media/45735328/move.png"
+      },
+      {
+        "key": "ME",
+        "name": "Magic Eden",
+        "label": "Magic Eden (ME)",
+        "img": "/media/45735292/me.png"
+      },
+      { "key": "VANA", "name": "Vana", "label": "Vana (VANA)", "img": "/media/45735359/vana.png" },
+      {
+        "key": "PENGU",
+        "name": "Pudgy Penguins",
+        "label": "Pudgy Penguins (PENGU)",
+        "img": "/media/45735301/vysun6mu_400x400.jpg"
+      },
+      { "key": "BIO", "name": "BITONE", "label": "BITONE (BIO)", "img": "/media/44222103/bio.png" },
+      {
+        "key": "AIXBT",
+        "name": "aixbt by Virtuals",
+        "label": "aixbt by Virtuals (AIXBT)",
+        "img": "/media/45735063/aixbt.png"
+      },
+      {
+        "key": "CGPT",
+        "name": "ChainGPT",
+        "label": "ChainGPT (CGPT)",
+        "img": "/media/44082134/cgpt.png"
+      },
+      {
+        "key": "COOKIE",
+        "name": "Cookie",
+        "label": "Cookie (COOKIE)",
+        "img": "/media/45576245/cookie.png"
+      }
+    ]
+  },
+  "BNB": {
+    "name": "Binance Coin",
+    "pairs": [
+      {
+        "key": "LTC",
+        "name": "Litecoin",
+        "label": "Litecoin (LTC)",
+        "img": "/media/37746243/ltc.png"
+      },
+      {
+        "key": "ADA",
+        "name": "Cardano",
+        "label": "Cardano (ADA)",
+        "img": "/media/37746235/ada.png"
+      },
+      { "key": "XRP", "name": "XRP", "label": "XRP (XRP)", "img": "/media/38553096/xrp.png" },
+      { "key": "TRX", "name": "TRON", "label": "TRON (TRX)", "img": "/media/37746879/trx.png" },
+      {
+        "key": "ETC",
+        "name": "Ethereum Classic",
+        "label": "Ethereum Classic (ETC)",
+        "img": "/media/37746862/etc.png"
+      },
+      {
+        "key": "VET",
+        "name": "VeChain",
+        "label": "VeChain (VET)",
+        "img": "/media/12318129/ven.png"
+      },
+      {
+        "key": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "label": "Artificial Superintelligence Alliance (FET)",
+        "img": "/media/45576550/asi.png"
+      },
+      { "key": "FTM", "name": "Fantom", "label": "Fantom (FTM)", "img": "/media/38553128/ftm.png" },
+      { "key": "WIN", "name": "WINk", "label": "WINk (WIN)", "img": "/media/35651255/win.png" },
+      { "key": "CHZ", "name": "Chiliz", "label": "Chiliz (CHZ)", "img": "/media/44051312/chz.png" },
+      {
+        "key": "HBAR",
+        "name": "Hedera Hashgraph",
+        "label": "Hedera Hashgraph (HBAR)",
+        "img": "/media/38553139/hbar.png"
+      },
+      { "key": "STX", "name": "Stacks", "label": "Stacks (STX)", "img": "/media/37746986/stx.png" },
+      {
+        "key": "BCH",
+        "name": "Bitcoin Cash",
+        "label": "Bitcoin Cash (BCH)",
+        "img": "/media/37746245/bch.png"
+      },
+      { "key": "SOL", "name": "Solana", "label": "Solana (SOL)", "img": "/media/37747734/sol.png" },
+      {
+        "key": "RUNE",
+        "name": "Thorchain",
+        "label": "Thorchain (RUNE)",
+        "img": "/media/38553142/runo.png"
+      },
+      {
+        "key": "DOT",
+        "name": "Polkadot",
+        "label": "Polkadot (DOT)",
+        "img": "/media/39334571/dot.png"
+      },
+      {
+        "key": "EGLD",
+        "name": "eGold",
+        "label": "eGold (EGLD)",
+        "img": "/media/44154180/egld.png"
+      },
+      {
+        "key": "AVAX",
+        "name": "Avalanche",
+        "label": "Avalanche (AVAX)",
+        "img": "/media/43977160/avax.png"
+      },
+      {
+        "key": "CAKE",
+        "name": "PancakeSwap",
+        "label": "PancakeSwap (CAKE)",
+        "img": "/media/44154219/cake.png"
+      },
+      { "key": "XVS", "name": "Venus", "label": "Venus (XVS)", "img": "/media/37747613/xvs.png" },
+      { "key": "NEAR", "name": "Near", "label": "Near (NEAR)", "img": "/media/45576309/near.png" },
+      {
+        "key": "INJ",
+        "name": "Injective",
+        "label": "Injective (INJ)",
+        "img": "/media/43687858/inj.png"
+      },
+      { "key": "CTK", "name": "Shentu", "label": "Shentu (CTK)", "img": "/media/40484985/ctk.png" },
+      {
+        "key": "AXS",
+        "name": "Axie Infinity Shards",
+        "label": "Axie Infinity Shards (AXS)",
+        "img": "/media/43687841/axs.png"
+      },
+      {
+        "key": "MASK",
+        "name": "Mask Network",
+        "label": "Mask Network (MASK)",
+        "img": "/media/37746334/mask.png"
+      },
+      {
+        "key": "LPT",
+        "name": "Livepeer",
+        "label": "Livepeer (LPT)",
+        "img": "/media/35264132/lpt.png"
+      },
+      {
+        "key": "RAY",
+        "name": "Raydium",
+        "label": "Raydium (RAY)",
+        "img": "/media/39198084/ray.png"
+      },
+      { "key": "GALA", "name": "Gala", "label": "Gala (GALA)", "img": "/media/39500762/gala.png" },
+      {
+        "key": "LINK",
+        "name": "Chainlink",
+        "label": "Chainlink (LINK)",
+        "img": "/media/37746242/link.png"
+      },
+      { "key": "SUI", "name": "Sui", "label": "Sui (SUI)", "img": "/media/44082045/sui.png" },
+      {
+        "key": "ARKM",
+        "name": "Arkham",
+        "label": "Arkham (ARKM)",
+        "img": "/media/44145710/arkm.png"
+      },
+      { "key": "SEI", "name": "Sei", "label": "Sei (SEI)", "img": "/media/44082123/sei.png" },
+      {
+        "key": "CYBER",
+        "name": "CyberConnect",
+        "label": "CyberConnect (CYBER)",
+        "img": "/media/44154121/cyber.png"
+      },
+      {
+        "key": "NTRN",
+        "name": "Neutron",
+        "label": "Neutron (NTRN)",
+        "img": "/media/44154185/ntrn.png"
+      },
+      {
+        "key": "AI",
+        "name": "Sleepless",
+        "label": "Sleepless (AI)",
+        "img": "/media/44221380/ai.png"
+      },
+      {
+        "key": "ALT",
+        "name": "Altlayer",
+        "label": "Altlayer (ALT)",
+        "img": "/media/44221839/alt.png"
+      },
+      {
+        "key": "PORTAL",
+        "name": "Portal",
+        "label": "Portal (PORTAL)",
+        "img": "/media/44223162/portal.png"
+      },
+      { "key": "ENA", "name": "Ethena", "label": "Ethena (ENA)", "img": "/media/44224398/ena.png" },
+      { "key": "SAGA", "name": "Saga", "label": "Saga (SAGA)", "img": "/media/44224895/saga.png" },
+      {
+        "key": "BB",
+        "name": "BounceBit",
+        "label": "BounceBit (BB)",
+        "img": "/media/44614156/bb.png"
+      },
+      { "key": "IO", "name": "io.net", "label": "io.net (IO)", "img": "/media/44614319/io.png" },
+      {
+        "key": "LISTA",
+        "name": "Lista DAO",
+        "label": "Lista DAO (LISTA)",
+        "img": "/media/44614497/lista.png"
+      },
+      {
+        "key": "BANANA",
+        "name": "Banana Gun",
+        "label": "Banana Gun (BANANA)",
+        "img": "/media/44221367/banana.png"
+      },
+      { "key": "DOGS", "name": "Dogs", "label": "Dogs (DOGS)", "img": "/media/45673751/dogs.png" },
+      {
+        "key": "POL",
+        "name": "Polygon Ecosystem Token",
+        "label": "Polygon Ecosystem Token (POL)",
+        "img": "/media/44154196/pol.png"
+      },
+      {
+        "key": "CATI",
+        "name": "Catizen",
+        "label": "Catizen (CATI)",
+        "img": "/media/45734220/cati.png"
+      },
+      {
+        "key": "MOVE",
+        "name": "Movement",
+        "label": "Movement (MOVE)",
+        "img": "/media/45735328/move.png"
+      },
+      { "key": "VANA", "name": "Vana", "label": "Vana (VANA)", "img": "/media/45735359/vana.png" },
+      {
+        "key": "PENGU",
+        "name": "Pudgy Penguins",
+        "label": "Pudgy Penguins (PENGU)",
+        "img": "/media/45735301/vysun6mu_400x400.jpg"
+      },
+      { "key": "BIO", "name": "BITONE", "label": "BITONE (BIO)", "img": "/media/44222103/bio.png" }
+    ]
+  },
+  "TUSD": {
+    "name": "True USD",
+    "pairs": [
+      {
+        "key": "BTC",
+        "name": "Bitcoin",
+        "label": "Bitcoin (BTC)",
+        "img": "/media/37746251/btc.png"
+      },
+      {
+        "key": "ETH",
+        "name": "Ethereum",
+        "label": "Ethereum (ETH)",
+        "img": "/media/37746238/eth.png"
+      },
+      {
+        "key": "BNB",
+        "name": "Binance Coin",
+        "label": "Binance Coin (BNB)",
+        "img": "/media/40485170/bnb.png"
+      },
+      { "key": "XRP", "name": "XRP", "label": "XRP (XRP)", "img": "/media/38553096/xrp.png" },
+      {
+        "key": "ARB",
+        "name": "Arbitrum",
+        "label": "Arbitrum (ARB)",
+        "img": "/media/44081950/arb.png"
+      },
+      { "key": "SOL", "name": "Solana", "label": "Solana (SOL)", "img": "/media/37747734/sol.png" },
+      {
+        "key": "DOGE",
+        "name": "Dogecoin",
+        "label": "Dogecoin (DOGE)",
+        "img": "/media/37746339/doge.png"
+      }
+    ]
+  },
+  "USDC": {
+    "name": "USD Coin",
+    "pairs": [
+      {
+        "key": "BNB",
+        "name": "Binance Coin",
+        "label": "Binance Coin (BNB)",
+        "img": "/media/40485170/bnb.png"
+      },
+      {
+        "key": "BTC",
+        "name": "Bitcoin",
+        "label": "Bitcoin (BTC)",
+        "img": "/media/37746251/btc.png"
+      },
+      {
+        "key": "ETH",
+        "name": "Ethereum",
+        "label": "Ethereum (ETH)",
+        "img": "/media/37746238/eth.png"
+      },
+      { "key": "XRP", "name": "XRP", "label": "XRP (XRP)", "img": "/media/38553096/xrp.png" },
+      { "key": "EOS", "name": "EOS", "label": "EOS (EOS)", "img": "/media/45735374/eos.png" },
+      {
+        "key": "XLM",
+        "name": "Stellar",
+        "label": "Stellar (XLM)",
+        "img": "/media/37746346/xlm.png"
+      },
+      {
+        "key": "LINK",
+        "name": "Chainlink",
+        "label": "Chainlink (LINK)",
+        "img": "/media/37746242/link.png"
+      },
+      {
+        "key": "LTC",
+        "name": "Litecoin",
+        "label": "Litecoin (LTC)",
+        "img": "/media/37746243/ltc.png"
+      },
+      { "key": "TRX", "name": "TRON", "label": "TRON (TRX)", "img": "/media/37746879/trx.png" },
+      {
+        "key": "ADA",
+        "name": "Cardano",
+        "label": "Cardano (ADA)",
+        "img": "/media/37746235/ada.png"
+      },
+      { "key": "NEO", "name": "NEO", "label": "NEO (NEO)", "img": "/media/37746892/neo.png" },
+      {
+        "key": "ATOM",
+        "name": "Cosmos",
+        "label": "Cosmos (ATOM)",
+        "img": "/media/37746867/atom.png"
+      },
+      { "key": "FTM", "name": "Fantom", "label": "Fantom (FTM)", "img": "/media/38553128/ftm.png" },
+      {
+        "key": "ALGO",
+        "name": "Algorand",
+        "label": "Algorand (ALGO)",
+        "img": "/media/38553120/algo.png"
+      },
+      {
+        "key": "DOGE",
+        "name": "Dogecoin",
+        "label": "Dogecoin (DOGE)",
+        "img": "/media/37746339/doge.png"
+      },
+      {
+        "key": "ONT",
+        "name": "Ontology",
+        "label": "Ontology (ONT)",
+        "img": "/media/36798656/ont.png"
+      },
+      {
+        "key": "BCH",
+        "name": "Bitcoin Cash",
+        "label": "Bitcoin Cash (BCH)",
+        "img": "/media/37746245/bch.png"
+      },
+      { "key": "SOL", "name": "Solana", "label": "Solana (SOL)", "img": "/media/37747734/sol.png" },
+      {
+        "key": "ARB",
+        "name": "Arbitrum",
+        "label": "Arbitrum (ARB)",
+        "img": "/media/44081950/arb.png"
+      },
+      {
+        "key": "AVAX",
+        "name": "Avalanche",
+        "label": "Avalanche (AVAX)",
+        "img": "/media/43977160/avax.png"
+      },
+      {
+        "key": "DOT",
+        "name": "Polkadot",
+        "label": "Polkadot (DOT)",
+        "img": "/media/39334571/dot.png"
+      },
+      {
+        "key": "INJ",
+        "name": "Injective",
+        "label": "Injective (INJ)",
+        "img": "/media/43687858/inj.png"
+      },
+      {
+        "key": "OP",
+        "name": "Optimism",
+        "label": "Optimism (OP)",
+        "img": "/media/40219338/op.png"
+      },
+      {
+        "key": "ORDI",
+        "name": "Ordinals ",
+        "label": "Ordinals  (ORDI)",
+        "img": "/media/44154211/ordi.png"
+      },
+      { "key": "SUI", "name": "Sui", "label": "Sui (SUI)", "img": "/media/44082045/sui.png" },
+      {
+        "key": "TIA",
+        "name": "Celestia",
+        "label": "Celestia (TIA)",
+        "img": "/media/44154182/tia.png"
+      },
+      {
+        "key": "MANTA",
+        "name": "Manta Network",
+        "label": "Manta Network (MANTA)",
+        "img": "/media/44213520/manta.png"
+      },
+      { "key": "BLUR", "name": "Blur", "label": "Blur (BLUR)", "img": "/media/44051188/blur.png" },
+      {
+        "key": "ALT",
+        "name": "Altlayer",
+        "label": "Altlayer (ALT)",
+        "img": "/media/44221839/alt.png"
+      },
+      { "key": "SEI", "name": "Sei", "label": "Sei (SEI)", "img": "/media/44082123/sei.png" },
+      {
+        "key": "JUP",
+        "name": "Jupiter",
+        "label": "Jupiter (JUP)",
+        "img": "/media/44222180/jup.png"
+      },
+      {
+        "key": "FIL",
+        "name": "FileCoin",
+        "label": "FileCoin (FIL)",
+        "img": "/media/37747014/fil.png"
+      },
+      {
+        "key": "WLD",
+        "name": "Worldcoin",
+        "label": "Worldcoin (WLD)",
+        "img": "/media/44145694/wld.png"
+      },
+      {
+        "key": "UNI",
+        "name": "Uniswap Protocol Token",
+        "label": "Uniswap Protocol Token (UNI)",
+        "img": "/media/37746885/uni.png"
+      },
+      {
+        "key": "PIXEL",
+        "name": "Pixels",
+        "label": "Pixels (PIXEL)",
+        "img": "/media/44222941/pixel.png"
+      },
+      {
+        "key": "STRK",
+        "name": "Starknet",
+        "label": "Starknet (STRK)",
+        "img": "/media/44222403/strk.png"
+      },
+      { "key": "PEPE", "name": "Pepe", "label": "Pepe (PEPE)", "img": "/media/44082118/pepe.png" },
+      {
+        "key": "SHIB",
+        "name": "Shiba Inu",
+        "label": "Shiba Inu (SHIB)",
+        "img": "/media/37747199/shib.png"
+      },
+      { "key": "NEAR", "name": "Near", "label": "Near (NEAR)", "img": "/media/45576309/near.png" },
+      {
+        "key": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "label": "Artificial Superintelligence Alliance (FET)",
+        "img": "/media/45576550/asi.png"
+      },
+      { "key": "BONK", "name": "Bonk", "label": "Bonk (BONK)", "img": "/media/43977068/bonk.png" },
+      {
+        "key": "FLOKI",
+        "name": "Floki Inu",
+        "label": "Floki Inu (FLOKI)",
+        "img": "/media/38553226/floki.png"
+      },
+      {
+        "key": "PENDLE",
+        "name": "Pendle",
+        "label": "Pendle (PENDLE)",
+        "img": "/media/37747410/pendle.png"
+      },
+      {
+        "key": "BOME",
+        "name": "BOOK OF MEME",
+        "label": "BOOK OF MEME (BOME)",
+        "img": "/media/44224537/bome.png"
+      },
+      { "key": "JTO", "name": "Jito", "label": "Jito (JTO)", "img": "/media/44154280/jito.png" },
+      {
+        "key": "WIF",
+        "name": "dogwifhat",
+        "label": "dogwifhat (WIF)",
+        "img": "/media/44154324/wif.png"
+      },
+      {
+        "key": "CKB",
+        "name": "Nervos Network",
+        "label": "Nervos Network (CKB)",
+        "img": "/media/37747678/ckb.png"
+      },
+      { "key": "ENA", "name": "Ethena", "label": "Ethena (ENA)", "img": "/media/44224398/ena.png" },
+      {
+        "key": "ETHFI",
+        "name": "Ether.fi",
+        "label": "Ether.fi (ETHFI)",
+        "img": "/media/44224177/ethfi.png"
+      },
+      {
+        "key": "YGG",
+        "name": "Yield Guild Games",
+        "label": "Yield Guild Games (YGG)",
+        "img": "/media/37748361/ygg.png"
+      },
+      {
+        "key": "CFX",
+        "name": "Conflux Network",
+        "label": "Conflux Network (CFX)",
+        "img": "/media/37747293/cfx.png"
+      },
+      {
+        "key": "RUNE",
+        "name": "Thorchain",
+        "label": "Thorchain (RUNE)",
+        "img": "/media/38553142/runo.png"
+      },
+      { "key": "SAGA", "name": "Saga", "label": "Saga (SAGA)", "img": "/media/44224895/saga.png" },
+      { "key": "APT", "name": "Aptos", "label": "Aptos (APT)", "img": "/media/43881360/apt.png" },
+      { "key": "GALA", "name": "Gala", "label": "Gala (GALA)", "img": "/media/39500762/gala.png" },
+      { "key": "STX", "name": "Stacks", "label": "Stacks (STX)", "img": "/media/37746986/stx.png" },
+      {
+        "key": "ICP",
+        "name": "Internet Computer",
+        "label": "Internet Computer (ICP)",
+        "img": "/media/37747502/icp.png"
+      },
+      {
+        "key": "OMNI",
+        "name": "Omni Network",
+        "label": "Omni Network (OMNI)",
+        "img": "/media/44224711/omninet.png"
+      },
+      { "key": "TRB", "name": "Tellor", "label": "Tellor (TRB)", "img": "/media/37747582/trb.png" },
+      {
+        "key": "ARKM",
+        "name": "Arkham",
+        "label": "Arkham (ARKM)",
+        "img": "/media/44145710/arkm.png"
+      },
+      { "key": "AR", "name": "Arweave", "label": "Arweave (AR)", "img": "/media/43881351/ar.png" },
+      {
+        "key": "BB",
+        "name": "BounceBit",
+        "label": "BounceBit (BB)",
+        "img": "/media/44614156/bb.png"
+      },
+      {
+        "key": "CRV",
+        "name": "Curve DAO Token",
+        "label": "Curve DAO Token (CRV)",
+        "img": "/media/37747537/crv.png"
+      },
+      {
+        "key": "PEOPLE",
+        "name": "ConstitutionDAO",
+        "label": "ConstitutionDAO (PEOPLE)",
+        "img": "/media/39198201/people.png"
+      },
+      { "key": "REZ", "name": "Renzo", "label": "Renzo (REZ)", "img": "/media/44613223/rez.png" },
+      {
+        "key": "ENS",
+        "name": "Ethereum Name Service",
+        "label": "Ethereum Name Service (ENS)",
+        "img": "/media/38554045/ens.png"
+      },
+      {
+        "key": "LDO",
+        "name": "Lido DAO",
+        "label": "Lido DAO (LDO)",
+        "img": "/media/40485192/ldo.png"
+      },
+      {
+        "key": "NOT",
+        "name": "Notcoin",
+        "label": "Notcoin (NOT)",
+        "img": "/media/44613958/not.png"
+      },
+      {
+        "key": "TNSR",
+        "name": "Tensor",
+        "label": "Tensor (TNSR)",
+        "img": "/media/44224533/tnsr.png"
+      },
+      { "key": "ZK", "name": "zkSync", "label": "zkSync (ZK)", "img": "/media/44614325/zk.png" },
+      {
+        "key": "ZRO",
+        "name": "LayerZero",
+        "label": "LayerZero (ZRO)",
+        "img": "/media/44614459/zro.png"
+      },
+      { "key": "IO", "name": "io.net", "label": "io.net (IO)", "img": "/media/44614319/io.png" },
+      {
+        "key": "1000SATS",
+        "name": "SATS",
+        "label": "SATS (1000SATS)",
+        "img": "/media/44154304/1000sats.png"
+      },
+      {
+        "key": "RENDER",
+        "name": "Render Network",
+        "label": "Render Network (RENDER)",
+        "img": "/media/39500858/rndr.png"
+      },
+      {
+        "key": "TON",
+        "name": "Toncoin",
+        "label": "Toncoin (TON)",
+        "img": "/media/43957906/toncoin.png"
+      },
+      { "key": "DOGS", "name": "Dogs", "label": "Dogs (DOGS)", "img": "/media/45673751/dogs.png" },
+      {
+        "key": "RARE",
+        "name": "SuperRare",
+        "label": "SuperRare (RARE)",
+        "img": "/media/38554190/rare.png"
+      },
+      {
+        "key": "SLF",
+        "name": "Self Chain",
+        "label": "Self Chain (SLF)",
+        "img": "/media/45734306/slf.png"
+      },
+      { "key": "AAVE", "name": "Aave", "label": "Aave (AAVE)", "img": "/media/37747534/aave.png" },
+      {
+        "key": "POL",
+        "name": "Polygon Ecosystem Token",
+        "label": "Polygon Ecosystem Token (POL)",
+        "img": "/media/44154196/pol.png"
+      },
+      {
+        "key": "ACT",
+        "name": "Act I The AI Prophecy",
+        "label": "Act I The AI Prophecy (ACT)",
+        "img": "/media/45735064/act.png"
+      },
+      {
+        "key": "NEIRO",
+        "name": "Neiro",
+        "label": "Neiro (NEIRO)",
+        "img": "/media/45734241/neiro.png"
+      },
+      {
+        "key": "PNUT",
+        "name": "Peanut the Squirrel",
+        "label": "Peanut the Squirrel (PNUT)",
+        "img": "/media/45734769/pnut.png"
+      },
+      {
+        "key": "CATI",
+        "name": "Catizen",
+        "label": "Catizen (CATI)",
+        "img": "/media/45734220/cati.png"
+      },
+      {
+        "key": "FDUSD",
+        "name": "First Digital USD",
+        "label": "First Digital USD (FDUSD)",
+        "img": "/media/45735364/fdusd.png"
+      },
+      {
+        "key": "HBAR",
+        "name": "Hedera Hashgraph",
+        "label": "Hedera Hashgraph (HBAR)",
+        "img": "/media/38553139/hbar.png"
+      },
+      { "key": "OM", "name": "MANTRA", "label": "MANTRA (OM)", "img": "/media/43717810/om.png" },
+      {
+        "key": "RAY",
+        "name": "Raydium",
+        "label": "Raydium (RAY)",
+        "img": "/media/39198084/ray.png"
+      },
+      {
+        "key": "TAO",
+        "name": "Bittensor",
+        "label": "Bittensor (TAO)",
+        "img": "/media/44154225/tao.png"
+      },
+      {
+        "key": "APE",
+        "name": "ApeCoin",
+        "label": "ApeCoin (APE)",
+        "img": "/media/39838302/ape.png"
+      },
+      {
+        "key": "EIGEN",
+        "name": "EigenLayer",
+        "label": "EigenLayer (EIGEN)",
+        "img": "/media/45673827/eigen.png"
+      },
+      {
+        "key": "MEME",
+        "name": "Memecoin",
+        "label": "Memecoin (MEME)",
+        "img": "/media/44154224/meme.png"
+      },
+      { "key": "TROY", "name": "Troy", "label": "Troy (TROY)", "img": "/media/39198100/troy.png" },
+      {
+        "key": "CETUS",
+        "name": "Cetus Protocol",
+        "label": "Cetus Protocol (CETUS)",
+        "img": "/media/44221342/cetus.png"
+      },
+      {
+        "key": "COW",
+        "name": "CoW Protocol",
+        "label": "CoW Protocol (COW)",
+        "img": "/media/44039358/cow.png"
+      },
+      { "key": "DYDX", "name": "dYdX", "label": "dYdX (DYDX)", "img": "/media/43717493/dydx.png" },
+      {
+        "key": "HMSTR",
+        "name": "Hamster Kombat",
+        "label": "Hamster Kombat (HMSTR)",
+        "img": "/media/45734261/hmstr.png"
+      },
+      {
+        "key": "TURBO",
+        "name": "Turbo",
+        "label": "Turbo (TURBO)",
+        "img": "/media/44613984/turbo.png"
+      },
+      { "key": "KAIA", "name": "Kaia", "label": "Kaia (KAIA)", "img": "/media/40484639/klay.png" },
+      {
+        "key": "SAND",
+        "name": "The Sandbox",
+        "label": "The Sandbox (SAND)",
+        "img": "/media/37746667/sand.png"
+      },
+      { "key": "CHZ", "name": "Chiliz", "label": "Chiliz (CHZ)", "img": "/media/44051312/chz.png" },
+      {
+        "key": "PYTH",
+        "name": "Pyth Network",
+        "label": "Pyth Network (PYTH)",
+        "img": "/media/44154245/pyth.png"
+      },
+      {
+        "key": "RSR",
+        "name": "Reserve Rights",
+        "label": "Reserve Rights (RSR)",
+        "img": "/media/37747018/rsr.png"
+      },
+      { "key": "W", "name": "Wormhole", "label": "Wormhole (W)", "img": "/media/44224534/w.png" },
+      { "key": "XTZ", "name": "Tezos", "label": "Tezos (XTZ)", "img": "/media/37747535/xtz.png" },
+      {
+        "key": "ACX",
+        "name": "Across Protocol",
+        "label": "Across Protocol (ACX)",
+        "img": "/media/43977237/acx.png"
+      },
+      { "key": "ORCA", "name": "Orca", "label": "Orca (ORCA)", "img": "/media/39501027/orca.png" },
+      { "key": "HIVE", "name": "Hive", "label": "Hive (HIVE)", "img": "/media/37746903/hive.png" },
+      { "key": "IDEX", "name": "IDEX", "label": "IDEX (IDEX)", "img": "/media/40484970/idex.png" },
+      {
+        "key": "TLM",
+        "name": "Alien Worlds",
+        "label": "Alien Worlds (TLM)",
+        "img": "/media/38553109/tlm.png"
+      },
+      {
+        "key": "PENGU",
+        "name": "Pudgy Penguins",
+        "label": "Pudgy Penguins (PENGU)",
+        "img": "/media/45735301/vysun6mu_400x400.jpg"
+      },
+      { "key": "BIO", "name": "BITONE", "label": "BITONE (BIO)", "img": "/media/44222103/bio.png" },
+      {
+        "key": "MOVE",
+        "name": "Movement",
+        "label": "Movement (MOVE)",
+        "img": "/media/45735328/move.png"
+      },
+      {
+        "key": "PHA",
+        "name": "Phala Network",
+        "label": "Phala Network (PHA)",
+        "img": "/media/37305519/pha.png"
+      },
+      {
+        "key": "STEEM",
+        "name": "Steem",
+        "label": "Steem (STEEM)",
+        "img": "/media/43717507/steem.png"
+      },
+      {
+        "key": "USUAL",
+        "name": "Usual",
+        "label": "Usual (USUAL)",
+        "img": "/media/45735152/usual.png"
+      },
+      {
+        "key": "AIXBT",
+        "name": "aixbt by Virtuals",
+        "label": "aixbt by Virtuals (AIXBT)",
+        "img": "/media/45735063/aixbt.png"
+      },
+      {
+        "key": "CGPT",
+        "name": "ChainGPT",
+        "label": "ChainGPT (CGPT)",
+        "img": "/media/44082134/cgpt.png"
+      },
+      {
+        "key": "COOKIE",
+        "name": "Cookie",
+        "label": "Cookie (COOKIE)",
+        "img": "/media/45576245/cookie.png"
+      }
+    ]
+  },
+  "FDUSD": {
+    "name": "First Digital USD",
+    "pairs": [
+      {
+        "key": "BNB",
+        "name": "Binance Coin",
+        "label": "Binance Coin (BNB)",
+        "img": "/media/40485170/bnb.png"
+      },
+      {
+        "key": "BTC",
+        "name": "Bitcoin",
+        "label": "Bitcoin (BTC)",
+        "img": "/media/37746251/btc.png"
+      },
+      {
+        "key": "ETH",
+        "name": "Ethereum",
+        "label": "Ethereum (ETH)",
+        "img": "/media/37746238/eth.png"
+      },
+      { "key": "SEI", "name": "Sei", "label": "Sei (SEI)", "img": "/media/44082123/sei.png" },
+      {
+        "key": "CYBER",
+        "name": "CyberConnect",
+        "label": "CyberConnect (CYBER)",
+        "img": "/media/44154121/cyber.png"
+      },
+      { "key": "SOL", "name": "Solana", "label": "Solana (SOL)", "img": "/media/37747734/sol.png" },
+      { "key": "XRP", "name": "XRP", "label": "XRP (XRP)", "img": "/media/38553096/xrp.png" },
+      {
+        "key": "DOGE",
+        "name": "Dogecoin",
+        "label": "Dogecoin (DOGE)",
+        "img": "/media/37746339/doge.png"
+      },
+      {
+        "key": "ARB",
+        "name": "Arbitrum",
+        "label": "Arbitrum (ARB)",
+        "img": "/media/44081950/arb.png"
+      },
+      { "key": "SUI", "name": "Sui", "label": "Sui (SUI)", "img": "/media/44082045/sui.png" },
+      {
+        "key": "FIL",
+        "name": "FileCoin",
+        "label": "FileCoin (FIL)",
+        "img": "/media/37747014/fil.png"
+      },
+      {
+        "key": "LTC",
+        "name": "Litecoin",
+        "label": "Litecoin (LTC)",
+        "img": "/media/37746243/ltc.png"
+      },
+      {
+        "key": "ADA",
+        "name": "Cardano",
+        "label": "Cardano (ADA)",
+        "img": "/media/37746235/ada.png"
+      },
+      {
+        "key": "ATOM",
+        "name": "Cosmos",
+        "label": "Cosmos (ATOM)",
+        "img": "/media/37746867/atom.png"
+      },
+      {
+        "key": "AVAX",
+        "name": "Avalanche",
+        "label": "Avalanche (AVAX)",
+        "img": "/media/43977160/avax.png"
+      },
+      {
+        "key": "BCH",
+        "name": "Bitcoin Cash",
+        "label": "Bitcoin Cash (BCH)",
+        "img": "/media/37746245/bch.png"
+      },
+      {
+        "key": "DOT",
+        "name": "Polkadot",
+        "label": "Polkadot (DOT)",
+        "img": "/media/39334571/dot.png"
+      },
+      { "key": "FTM", "name": "Fantom", "label": "Fantom (FTM)", "img": "/media/38553128/ftm.png" },
+      {
+        "key": "LINK",
+        "name": "Chainlink",
+        "label": "Chainlink (LINK)",
+        "img": "/media/37746242/link.png"
+      },
+      { "key": "NEAR", "name": "Near", "label": "Near (NEAR)", "img": "/media/45576309/near.png" },
+      {
+        "key": "MEME",
+        "name": "Memecoin",
+        "label": "Memecoin (MEME)",
+        "img": "/media/44154224/meme.png"
+      },
+      {
+        "key": "EGLD",
+        "name": "eGold",
+        "label": "eGold (EGLD)",
+        "img": "/media/44154180/egld.png"
+      },
+      {
+        "key": "FET",
+        "name": "Artificial Superintelligence Alliance",
+        "label": "Artificial Superintelligence Alliance (FET)",
+        "img": "/media/45576550/asi.png"
+      },
+      {
+        "key": "OP",
+        "name": "Optimism",
+        "label": "Optimism (OP)",
+        "img": "/media/40219338/op.png"
+      },
+      {
+        "key": "ORDI",
+        "name": "Ordinals ",
+        "label": "Ordinals  (ORDI)",
+        "img": "/media/44154211/ordi.png"
+      },
+      { "key": "DYDX", "name": "dYdX", "label": "dYdX (DYDX)", "img": "/media/43717493/dydx.png" },
+      {
+        "key": "RUNE",
+        "name": "Thorchain",
+        "label": "Thorchain (RUNE)",
+        "img": "/media/38553142/runo.png"
+      },
+      { "key": "GALA", "name": "Gala", "label": "Gala (GALA)", "img": "/media/39500762/gala.png" },
+      {
+        "key": "WLD",
+        "name": "Worldcoin",
+        "label": "Worldcoin (WLD)",
+        "img": "/media/44145694/wld.png"
+      },
+      {
+        "key": "USTC",
+        "name": "TerraClassicUSD",
+        "label": "TerraClassicUSD (USTC)",
+        "img": "/media/37305450/ust.png"
+      },
+      {
+        "key": "AUCTION",
+        "name": "Bounce",
+        "label": "Bounce (AUCTION)",
+        "img": "/media/39198131/auction-grande.png"
+      },
+      { "key": "JTO", "name": "Jito", "label": "Jito (JTO)", "img": "/media/44154280/jito.png" },
+      {
+        "key": "1000SATS",
+        "name": "SATS",
+        "label": "SATS (1000SATS)",
+        "img": "/media/44154304/1000sats.png"
+      },
+      {
+        "key": "SHIB",
+        "name": "Shiba Inu",
+        "label": "Shiba Inu (SHIB)",
+        "img": "/media/37747199/shib.png"
+      },
+      {
+        "key": "SAND",
+        "name": "The Sandbox",
+        "label": "The Sandbox (SAND)",
+        "img": "/media/37746667/sand.png"
+      },
+      {
+        "key": "INJ",
+        "name": "Injective",
+        "label": "Injective (INJ)",
+        "img": "/media/43687858/inj.png"
+      },
+      { "key": "BONK", "name": "Bonk", "label": "Bonk (BONK)", "img": "/media/43977068/bonk.png" },
+      {
+        "key": "NFP",
+        "name": "NFPrompt",
+        "label": "NFPrompt (NFP)",
+        "img": "/media/44213486/nfp.png"
+      },
+      {
+        "key": "AI",
+        "name": "Sleepless",
+        "label": "Sleepless (AI)",
+        "img": "/media/44221380/ai.png"
+      },
+      {
+        "key": "ICP",
+        "name": "Internet Computer",
+        "label": "Internet Computer (ICP)",
+        "img": "/media/37747502/icp.png"
+      },
+      {
+        "key": "LDO",
+        "name": "Lido DAO",
+        "label": "Lido DAO (LDO)",
+        "img": "/media/40485192/ldo.png"
+      },
+      { "key": "XAI", "name": "Xai", "label": "Xai (XAI)", "img": "/media/44213469/xai.png" },
+      { "key": "STX", "name": "Stacks", "label": "Stacks (STX)", "img": "/media/37746986/stx.png" },
+      {
+        "key": "TIA",
+        "name": "Celestia",
+        "label": "Celestia (TIA)",
+        "img": "/media/44154182/tia.png"
+      },
+      {
+        "key": "MANTA",
+        "name": "Manta Network",
+        "label": "Manta Network (MANTA)",
+        "img": "/media/44213520/manta.png"
+      },
+      {
+        "key": "ENS",
+        "name": "Ethereum Name Service",
+        "label": "Ethereum Name Service (ENS)",
+        "img": "/media/38554045/ens.png"
+      },
+      {
+        "key": "ETC",
+        "name": "Ethereum Classic",
+        "label": "Ethereum Classic (ETC)",
+        "img": "/media/37746862/etc.png"
+      },
+      { "key": "CHZ", "name": "Chiliz", "label": "Chiliz (CHZ)", "img": "/media/44051312/chz.png" },
+      {
+        "key": "ALT",
+        "name": "Altlayer",
+        "label": "Altlayer (ALT)",
+        "img": "/media/44221839/alt.png"
+      },
+      { "key": "APT", "name": "Aptos", "label": "Aptos (APT)", "img": "/media/43881360/apt.png" },
+      {
+        "key": "JUP",
+        "name": "Jupiter",
+        "label": "Jupiter (JUP)",
+        "img": "/media/44222180/jup.png"
+      },
+      {
+        "key": "PYTH",
+        "name": "Pyth Network",
+        "label": "Pyth Network (PYTH)",
+        "img": "/media/44154245/pyth.png"
+      },
+      {
+        "key": "RONIN",
+        "name": "Ronin",
+        "label": "Ronin (RONIN)",
+        "img": "/media/39838418/ron.png"
+      },
+      {
+        "key": "PENDLE",
+        "name": "Pendle",
+        "label": "Pendle (PENDLE)",
+        "img": "/media/37747410/pendle.png"
+      },
+      {
+        "key": "STRK",
+        "name": "Starknet",
+        "label": "Starknet (STRK)",
+        "img": "/media/44222403/strk.png"
+      },
+      {
+        "key": "PORTAL",
+        "name": "Portal",
+        "label": "Portal (PORTAL)",
+        "img": "/media/44223162/portal.png"
+      },
+      { "key": "PEPE", "name": "Pepe", "label": "Pepe (PEPE)", "img": "/media/44082118/pepe.png" },
+      {
+        "key": "UNI",
+        "name": "Uniswap Protocol Token",
+        "label": "Uniswap Protocol Token (UNI)",
+        "img": "/media/37746885/uni.png"
+      },
+      {
+        "key": "WIF",
+        "name": "dogwifhat",
+        "label": "dogwifhat (WIF)",
+        "img": "/media/44154324/wif.png"
+      },
+      {
+        "key": "THETA",
+        "name": "Theta Network",
+        "label": "Theta Network (THETA)",
+        "img": "/media/37746670/theta.png"
+      },
+      {
+        "key": "FLOKI",
+        "name": "Floki Inu",
+        "label": "Floki Inu (FLOKI)",
+        "img": "/media/38553226/floki.png"
+      },
+      {
+        "key": "GRT",
+        "name": "The Graph",
+        "label": "The Graph (GRT)",
+        "img": "/media/37747239/grt.png"
+      },
+      { "key": "AEVO", "name": "Aevo", "label": "Aevo (AEVO)", "img": "/media/44223534/aevo.png" },
+      {
+        "key": "BOME",
+        "name": "BOOK OF MEME",
+        "label": "BOOK OF MEME (BOME)",
+        "img": "/media/44224537/bome.png"
+      },
+      {
+        "key": "ETHFI",
+        "name": "Ether.fi",
+        "label": "Ether.fi (ETHFI)",
+        "img": "/media/44224177/ethfi.png"
+      },
+      {
+        "key": "ARKM",
+        "name": "Arkham",
+        "label": "Arkham (ARKM)",
+        "img": "/media/44145710/arkm.png"
+      },
+      {
+        "key": "RAY",
+        "name": "Raydium",
+        "label": "Raydium (RAY)",
+        "img": "/media/39198084/ray.png"
+      },
+      { "key": "ENA", "name": "Ethena", "label": "Ethena (ENA)", "img": "/media/44224398/ena.png" },
+      { "key": "W", "name": "Wormhole", "label": "Wormhole (W)", "img": "/media/44224534/w.png" },
+      {
+        "key": "TNSR",
+        "name": "Tensor",
+        "label": "Tensor (TNSR)",
+        "img": "/media/44224533/tnsr.png"
+      },
+      { "key": "SAGA", "name": "Saga", "label": "Saga (SAGA)", "img": "/media/44224895/saga.png" },
+      {
+        "key": "TAO",
+        "name": "Bittensor",
+        "label": "Bittensor (TAO)",
+        "img": "/media/44154225/tao.png"
+      },
+      {
+        "key": "OMNI",
+        "name": "Omni Network",
+        "label": "Omni Network (OMNI)",
+        "img": "/media/44224711/omninet.png"
+      },
+      {
+        "key": "BB",
+        "name": "BounceBit",
+        "label": "BounceBit (BB)",
+        "img": "/media/44614156/bb.png"
+      },
+      {
+        "key": "NOT",
+        "name": "Notcoin",
+        "label": "Notcoin (NOT)",
+        "img": "/media/44613958/not.png"
+      },
+      { "key": "AR", "name": "Arweave", "label": "Arweave (AR)", "img": "/media/43881351/ar.png" },
+      {
+        "key": "PEOPLE",
+        "name": "ConstitutionDAO",
+        "label": "ConstitutionDAO (PEOPLE)",
+        "img": "/media/39198201/people.png"
+      },
+      { "key": "IO", "name": "io.net", "label": "io.net (IO)", "img": "/media/44614319/io.png" },
+      { "key": "ZK", "name": "zkSync", "label": "zkSync (ZK)", "img": "/media/44614325/zk.png" },
+      {
+        "key": "LISTA",
+        "name": "Lista DAO",
+        "label": "Lista DAO (LISTA)",
+        "img": "/media/44614497/lista.png"
+      },
+      {
+        "key": "ZRO",
+        "name": "LayerZero",
+        "label": "LayerZero (ZRO)",
+        "img": "/media/44614459/zro.png"
+      },
+      {
+        "key": "BANANA",
+        "name": "Banana Gun",
+        "label": "Banana Gun (BANANA)",
+        "img": "/media/44221367/banana.png"
+      },
+      {
+        "key": "RENDER",
+        "name": "Render Network",
+        "label": "Render Network (RENDER)",
+        "img": "/media/39500858/rndr.png"
+      },
+      {
+        "key": "TON",
+        "name": "Toncoin",
+        "label": "Toncoin (TON)",
+        "img": "/media/43957906/toncoin.png"
+      },
+      { "key": "AAVE", "name": "Aave", "label": "Aave (AAVE)", "img": "/media/37747534/aave.png" },
+      { "key": "DOGS", "name": "Dogs", "label": "Dogs (DOGS)", "img": "/media/45673751/dogs.png" },
+      {
+        "key": "POL",
+        "name": "Polygon Ecosystem Token",
+        "label": "Polygon Ecosystem Token (POL)",
+        "img": "/media/44154196/pol.png"
+      },
+      {
+        "key": "CATI",
+        "name": "Catizen",
+        "label": "Catizen (CATI)",
+        "img": "/media/45734220/cati.png"
+      },
+      {
+        "key": "NEIRO",
+        "name": "Neiro",
+        "label": "Neiro (NEIRO)",
+        "img": "/media/45734241/neiro.png"
+      },
+      {
+        "key": "HMSTR",
+        "name": "Hamster Kombat",
+        "label": "Hamster Kombat (HMSTR)",
+        "img": "/media/45734261/hmstr.png"
+      },
+      {
+        "key": "EIGEN",
+        "name": "EigenLayer",
+        "label": "EigenLayer (EIGEN)",
+        "img": "/media/45673827/eigen.png"
+      },
+      {
+        "key": "ACT",
+        "name": "Act I The AI Prophecy",
+        "label": "Act I The AI Prophecy (ACT)",
+        "img": "/media/45735064/act.png"
+      },
+      {
+        "key": "PNUT",
+        "name": "Peanut the Squirrel",
+        "label": "Peanut the Squirrel (PNUT)",
+        "img": "/media/45734769/pnut.png"
+      },
+      {
+        "key": "APE",
+        "name": "ApeCoin",
+        "label": "ApeCoin (APE)",
+        "img": "/media/39838302/ape.png"
+      },
+      {
+        "key": "TURBO",
+        "name": "Turbo",
+        "label": "Turbo (TURBO)",
+        "img": "/media/44613984/turbo.png"
+      },
+      {
+        "key": "HBAR",
+        "name": "Hedera Hashgraph",
+        "label": "Hedera Hashgraph (HBAR)",
+        "img": "/media/38553139/hbar.png"
+      },
+      { "key": "EOS", "name": "EOS", "label": "EOS (EOS)", "img": "/media/45735374/eos.png" },
+      {
+        "key": "XLM",
+        "name": "Stellar",
+        "label": "Stellar (XLM)",
+        "img": "/media/37746346/xlm.png"
+      },
+      {
+        "key": "RSR",
+        "name": "Reserve Rights",
+        "label": "Reserve Rights (RSR)",
+        "img": "/media/37747018/rsr.png"
+      },
+      {
+        "key": "MOVE",
+        "name": "Movement",
+        "label": "Movement (MOVE)",
+        "img": "/media/45735328/move.png"
+      },
+      {
+        "key": "ME",
+        "name": "Magic Eden",
+        "label": "Magic Eden (ME)",
+        "img": "/media/45735292/me.png"
+      },
+      {
+        "key": "ACX",
+        "name": "Across Protocol",
+        "label": "Across Protocol (ACX)",
+        "img": "/media/43977237/acx.png"
+      },
+      { "key": "ORCA", "name": "Orca", "label": "Orca (ORCA)", "img": "/media/39501027/orca.png" },
+      { "key": "HIVE", "name": "Hive", "label": "Hive (HIVE)", "img": "/media/37746903/hive.png" },
+      { "key": "IDEX", "name": "IDEX", "label": "IDEX (IDEX)", "img": "/media/40484970/idex.png" },
+      {
+        "key": "TLM",
+        "name": "Alien Worlds",
+        "label": "Alien Worlds (TLM)",
+        "img": "/media/38553109/tlm.png"
+      },
+      { "key": "VANA", "name": "Vana", "label": "Vana (VANA)", "img": "/media/45735359/vana.png" },
+      {
+        "key": "PENGU",
+        "name": "Pudgy Penguins",
+        "label": "Pudgy Penguins (PENGU)",
+        "img": "/media/45735301/vysun6mu_400x400.jpg"
+      },
+      {
+        "key": "USUAL",
+        "name": "Usual",
+        "label": "Usual (USUAL)",
+        "img": "/media/45735152/usual.png"
+      },
+      { "key": "BIO", "name": "BITONE", "label": "BITONE (BIO)", "img": "/media/44222103/bio.png" }
+    ]
+  }
+}

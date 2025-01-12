@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "base": "BTC",
+    "quote": "USDT",
+    "name": "Bitcoin",
+    "img": "/media/37746251/btc.png"
+  },
+  {
+    "symbol": "DOGEBTC",
+    "base": "DOGE",
+    "quote": "BTC",
+    "name": "Dogecoin",
+    "img": "/media/37746339/doge.png"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "base": "ETH",
+    "quote": "USDT",
+    "name": "Ethereum",
+    "img": "/media/37746238/eth.png"
+  },
+  {
+    "symbol": "XRPUSDT",
+    "base": "XRP",
+    "quote": "USDT",
+    "name": "XRP",
+    "img": "/media/38553096/xrp.png"
+  },
+  {
+    "symbol": "ETHBTC",
+    "base": "ETH",
+    "quote": "BTC",
+    "name": "Ethereum",
+    "img": "/media/37746238/eth.png"
+  },
+  {
+    "symbol": "SHIBUSDT",
+    "base": "SHIB",
+    "quote": "USDT",
+    "name": "SHIBA INU",
+    "img": "/media/37747199/shib.png"
+  }
+]
