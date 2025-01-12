@@ -8,7 +8,7 @@
       >
         <b class="left-arrow"></b>
       </button>
-      <span class="page-title">VUE CRYPTO DASHBOARD</span>
+      <span class="page-title">VUE 3 CRYPTO DASHBOARD</span>
     </header>
     <div class="page-container">
       <router-view v-slot="{ Component }">
