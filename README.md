@@ -2,11 +2,14 @@
 
 A Cryptocurrency Dashboard build with Vue 3 in Vite, PWA enabled, Binance Websocket API for realtime price, amChart5 for displaying historical charts, SVG Sparkline Chart and Latest News feed from Cryptocompare site.
 
-Demo: [https://jayeshlab.github.io/vue3-crypto-dashboard/](https://jayeshlab.github.io/vue3-crypto-dashboard/)
+Demo: [https://vue3-crypto-dashboard.vercel.app/](https://vue3-crypto-dashboard.vercel.app/)
 
-<img width="500" alt="portfolio_view" src="https://user-images.githubusercontent.com/36194663/47360119-2ec3a600-d6ec-11e8-95a2-0b61d0bf0f11.png">
 
-<img width="500" alt="portfolio_view" src="https://user-images.githubusercontent.com/36194663/47360137-3edb8580-d6ec-11e8-8cb9-88b632328e38.png">
+![vd1](https://github.com/user-attachments/assets/9410a4f7-c263-40b2-8936-bfb801b67c84)
+
+![vd2](https://github.com/user-attachments/assets/1832fa0c-9830-48b1-8267-ddf3080ad20a)
+
+
  
 ## Tech Stacks
 
@@ -20,9 +23,9 @@ Demo: [https://jayeshlab.github.io/vue3-crypto-dashboard/](https://jayeshlab.git
 - [Binance Websocket Stream](https://github.com/binance-exchange/binance-official-api-docs/blob/master/web-socket-streams.md)
 - [amcharts5](https://www.amcharts.com/)
 - [Cryptocompare News Api](https://min-api.cryptocompare.com/)
-- [Custom Sparkline chart](https://github.com/JayeshLab/vue3-crypto-dashboard/blob/master/src/components/Sparkline.vue)
-- [Custom Searchable Dropdown](https://github.com/JayeshLab/vue3-crypto-dashboard/blob/master/src/components/SearchableDropdown.vue)
-- [Custom Binance Websocket Api](https://github.com/JayeshLab/vue3-crypto-dashboard/blob/master/src/services/api.js)
+- [Custom Sparkline chart](https://github.com/JayeshLab/vue3-crypto-dashboard/blob/main/src/components/SparkLine.vue)
+- [Custom Searchable Dropdown](https://github.com/JayeshLab/vue3-crypto-dashboard/blob/main/src/components/SearchableDropdown.vue)
+- [Custom Binance Websocket Api](https://github.com/JayeshLab/vue3-crypto-dashboard/blob/main/src/services/api.ts)
 
 ## Recommended IDE Setup
 
