@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
+import { ref, computed, watch, onMounted, onUnmounted, useTemplateRef, nextTick } from 'vue'
 
 interface Props {
   options: (string | Record<string, any>)[]
@@ -23,9 +23,10 @@ const emit = defineEmits(['update:modelValue', 'input'])
 const isOpen = ref(false)
 const searchQuery = ref('')
 const selectedOption = ref<any>(null)
-
+const searchInput = useTemplateRef('search-input')
 // Filter dropdown list based on search input
 const filteredOptions = computed(() => {
+  console.log(searchQuery.value);
   return props.options.filter((option) => {
     const label = typeof option === 'string' ? option : option[props.labelKey]
     return label.toLowerCase().includes(searchQuery.value.toLowerCase())
@@ -53,6 +54,11 @@ const toggleDropdown = () => {
   if (!isOpen.value) {
     searchQuery.value = ''
   }
+  else {
+    nextTick(() => {
+      searchInput.value?.focus();
+    })
+  }
 }
 
 // Close dropdown when clicking outside
@@ -63,7 +69,9 @@ const handleClickOutside = (event: MouseEvent) => {
     searchQuery.value = ''
   }
 }
-
+const updateSearchQuery = (e: Event) => {
+  searchQuery.value =  (e.target as HTMLInputElement).value;
+}
 // Watch for modelValue changes
 watch(
   () => props.modelValue,
@@ -100,12 +108,14 @@ onUnmounted(() => {
 
     <div v-show="isOpen" class="dropdown-menu">
       <input
-        type="text"
-        v-model="searchQuery"
-        placeholder="Search..."
-        class="search-input"
-        @click.stop
         v-if="searchable"
+        type="text"
+        placeholder="Search..."
+        ref="search-input"
+        class="search-input"
+        :value="searchQuery"
+        @input="updateSearchQuery"
+        @click.stop
       />
       <div class="options-container">
         <div
