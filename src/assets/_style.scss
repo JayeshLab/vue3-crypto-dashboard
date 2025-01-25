@@ -189,6 +189,7 @@ button:focus {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   grid-gap: 10px;
+  padding-bottom: 15px;
   .card-block {
     display: flex;
     justify-content: center;
@@ -254,14 +255,27 @@ button:focus {
 
 .up {
   color: #53a800;
-  .indicator:before {
-    content: '⮝';
+  .indicator {
+    height: 28px;
+    width: 28px;
+    background-color:green;
+    display: inline-flex;
+    vertical-align: bottom;
+    margin-right: 5px;
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16"><path  d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>');
   }
 }
 .down {
   color: red;
-  .indicator:before {
-    content: '⮟';
+  .indicator {
+    height: 28px;
+    width: 28px;
+    background-color:red;
+    display: inline-flex;
+    vertical-align: bottom;
+    margin-right: 5px;
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16"><path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
+
   }
 }
 .text-right {
