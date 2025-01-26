@@ -258,7 +258,7 @@ button:focus {
   .indicator {
     height: 28px;
     width: 28px;
-    background-color:green;
+    background-color: green;
     display: inline-flex;
     vertical-align: bottom;
     margin-right: 5px;
@@ -270,12 +270,11 @@ button:focus {
   .indicator {
     height: 28px;
     width: 28px;
-    background-color:red;
+    background-color: red;
     display: inline-flex;
     vertical-align: bottom;
     margin-right: 5px;
     mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16"><path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg>');
-
   }
 }
 .text-right {
@@ -291,11 +290,12 @@ button:focus {
   font-weight: 700 !important;
 }
 .left-arrow {
-  color: $secondary;
-  font-size: 28px;
-  &:before {
-    content: '🢠';
-  }
+  height: 28px;
+  width: 28px;
+  display: inline-flex;
+  background-color: $secondary;
+  vertical-align: middle;
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-backspace-fill" viewBox="0 0 16 16"><path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8z"/></svg>');
 }
 .ellipsis {
   color: #000;

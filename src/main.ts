@@ -2,7 +2,7 @@ import './assets/app.scss'
 import ClickOutside from './directives/ClickOutsideDirective'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
-
+import './registerServiceWorker'
 import App from './App.vue'
 import router from './router'
 
