@@ -2,58 +2,58 @@
   <div>
     <svg :viewBox="`0 0 ${width} ${height}`" :preserveAspectRatio="preserveAspectRatio">
       <defs>
-        <defs>
-          <filter
-            id="glow"
-            x="-100%"
-            y="-100%"
-            width="350%"
-            height="350%"
-            color-interpolation-filters="sRGB"
-          >
-            <feGaussianBlur stdDeviation="1.8" result="coloredBlur" />
-            <feOffset dx="-1" dy="-1" result="offsetblur"></feOffset>
-            <feFlood id="glowAlpha" flood-color="#666" flood-opacity="0.8"></feFlood>
-            <feComposite in2="offsetblur" operator="in"></feComposite>
-            <feMerge>
-              <feMergeNode />
-              <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-          </filter>
-        </defs>
+        <linearGradient :id="gradientId" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" :style="{ 'stop-color': lineColor, 'stop-opacity': 0.4 }" />
+          <stop offset="100%" :style="{ 'stop-color': lineColor, 'stop-opacity': 0.1 }" />
+        </linearGradient>
+        <filter id="glow" x="-100%" y="-100%" width="350%" height="350%" color-interpolation-filters="sRGB">
+          <feGaussianBlur stdDeviation="1.5" result="coloredBlur" />
+          <feOffset dx="-0.5" dy="-0.5" result="offsetblur"></feOffset>
+          <feFlood :flood-color="lineColor" flood-opacity="0.5"></feFlood>
+          <feComposite in2="offsetblur" operator="in"></feComposite>
+          <feMerge>
+            <feMergeNode />
+            <feMergeNode in="SourceGraphic"></feMergeNode>
+          </feMerge>
+        </filter>
       </defs>
       <g>
         <path
           :d="`${linePath} ${endPath}`"
           class="sfill"
-          style="
-            stroke: none;
-            stroke-width: 0;
-            fill-opacity: 0.2;
-            fill: #007fff;
-            pointer-events: auto;
-          "
+          :style="{
+            stroke: 'none',
+            strokeWidth: 0,
+            fill: `url(#${gradientId})`,
+            pointerEvents: 'auto'
+          }"
         />
         <path
           :d="linePath"
           class="sline"
-          style="
-            stroke: slategray;
-            stroke-width: 2;
-            stroke-linejoin: round;
-            stroke-linecap: round;
-            fill: none;
-          "
+          :style="{
+            stroke: lineColor,
+            strokeWidth: 2,
+            strokeLinejoin: 'round',
+            strokeLinecap: 'round',
+            fill: 'none',
+            filter: 'url(#glow)'
+          }"
         />
       </g>
-      <g>
-        <circle :cx="pt[pt.length - 1].x - 2" :cy="pt[pt.length - 1].y" :r="3" style="fill: red" />
+      <g v-if="showLastPoint">
+        <circle 
+          :cx="pt[pt.length - 1].x - 2" 
+          :cy="pt[pt.length - 1].y" 
+          :r="3" 
+          :style="{ fill: lineColor }" 
+        />
       </g>
     </svg>
   </div>
 </template>
 <script setup lang="ts">
-import { ref, reactive, watch } from 'vue'
+import { ref, reactive, watch, computed } from 'vue'
 
 interface Props {
   width?: number
@@ -63,6 +63,8 @@ interface Props {
   limit?: number
   margin?: number
   smooth?: number
+  lineColor?: string
+  showLastPoint?: boolean
 }
 
 interface Point {
@@ -77,7 +79,9 @@ const props = withDefaults(defineProps<Props>(), {
   cdata: 0,
   limit: 20,
   margin: 4,
-  smooth: 0.2
+  smooth: 0.2,
+  lineColor: '#007fff',
+  showLastPoint: true
 })
 
 const lineData = reactive<number[]>([])
@@ -85,6 +89,7 @@ const linePath = ref<string>('')
 const endPath = ref<string>('')
 const prev = ref<Point | null>(null)
 const pt = ref<Point[]>([])
+const gradientId = computed(() => `sparkline-gradient-${Math.random().toString(36).substr(2, 9)}`)
 
 // SVG curve path
 const curve = (p: Point) => {
@@ -145,3 +150,12 @@ watch(
   { immediate: true }
 )
 </script>
+
+<style scoped>
+.sline {
+  transition: all 0.3s ease;
+}
+.sfill {
+  transition: all 0.3s ease;
+}
+</style>
