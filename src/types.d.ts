@@ -46,6 +46,9 @@ export type Coins = {
 export type SparklineProps = {
   pair: string
   info: Symbol
+  width?: number
+  height?: number
+  color?: string
 }
 
 export type StockData = {
