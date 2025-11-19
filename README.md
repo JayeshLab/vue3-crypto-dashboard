@@ -1,6 +1,6 @@
 # Vue JS 3 Crypto Dashboard
 
-A Cryptocurrency Dashboard build with Vue JS 3 in Vite, PWA enabled, Binance Websocket API for realtime price, amChart5 for displaying historical charts, SVG Sparkline Chart and Latest News feed from Cryptocompare site.
+A Cryptocurrency Dashboard build with Vue JS 3 Typescript in Vite, PWA enabled, Binance Websocket API for realtime price, amChart5 for displaying historical charts, SVG Sparkline Chart and Latest News feed from Cryptocompare site.
 
 Demo: [https://vue3-crypto-dashboard.vercel.app/](https://vue3-crypto-dashboard.vercel.app/)
 
