@@ -51,7 +51,12 @@
       </div>
     </div>
     <div class="sparkline-chart" v-if="ticker?.price">
-      <SparkLine :cdata="ticker.price" :width="380" :height="90"></SparkLine>
+      <SparkLine 
+        :cdata="ticker.price" 
+        :width="380" 
+        :height="90"
+        :line-color="ticker.percent && parseFloat(ticker.percent) < 0 ? '#ff4444' : '#00c853'"
+      ></SparkLine>
     </div>
   </div>
 </template>
