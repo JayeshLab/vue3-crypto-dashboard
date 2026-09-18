@@ -2,20 +2,20 @@
   <section class="news">
     <header class="news-header">Latest News</header>
     <div class="news-block">
-      <div class="news-item" v-for="article in news" :key="article.id">
+      <div class="news-item" v-for="article in news" :key="article.ID">
         <div class="thumb-img">
-          <a :href="article.url" target="_blank">
-            <img :src="article.imageurl" />
+          <a :href="article.URL" target="_blank">
+            <img :src="article.IMAGE_URL" />
           </a>
         </div>
         <div>
           <h6 class="news-title">
-            <a :href="article.url" target="_blank">{{ article.title }}</a>
+            <a :href="article.URL" target="_blank">{{ article.TITLE }}</a>
           </h6>
-          <p v-html="truncateText(article.body)"></p>
+          <p v-html="truncateText(article.BODY)"></p>
           <div class="news-data">
-            <div class="news-source">{{ article.source_info.name }}</div>
-            <div class="news-date">{{ time_since(article.published_on) }}</div>
+            <div class="news-source">{{ article.SOURCE_DATA.NAME }}</div>
+            <div class="news-date">{{ time_since(article.PUBLISHED_ON) }}</div>
           </div>
         </div>
       </div>
@@ -26,20 +26,21 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import { ago } from '../util/Utility'
 interface Article {
-  id: string
-  url: string
-  imageurl: string
-  title: string
-  body: string
-  source_info: { name: string }
-  published_on: number
+  ID: string
+  URL: string
+  IMAGE_URL: string
+  TITLE: string
+  BODY: string
+  SOURCE_DATA: { NAME: string }
+  PUBLISHED_ON: number
 }
 const news = ref<Article[]>([])
 let interval: ReturnType<typeof setInterval> | undefined = undefined
 
 const getNews = async () => {
   // Load the latest news using cryptocompare api
-  let response = await fetch('https://min-api.cryptocompare.com/data/v2/news/?lang=EN')
+  const apiKey = import.meta.env.VITE_COINDESK_API_KEY
+  let response = await fetch(`https://data-api.coindesk.com/news/v1/article/list?lang=EN&limit=20&api_key=${apiKey}`)
   if (response.ok) {
     let json = await response.json()
     news.value = json['Data']
